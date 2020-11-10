@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* core.css - 중요 공통 기능 */
+
+/*폰트*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Secular+One&display=swap');
+
+/*font-family: 'Noto Sans KR', sans-serif;*/ /*한글*/
+/*font-family: 'S-CoreDream';*/ /*한글*/
+/*font-family: 'Secular One', sans-serif;*/  
+
+
+@font-face {
+    font-family: 'S-CoreDream';
+    src: url(../font/S-CoreDream-1Thin.ttf) format('truetype'),
+        url(../font/S-CoreDream-1Thin.woff) format('woff'),
+        url(../font/S-CoreDream-2ExtraLight.ttf) format('truetype'),
+        url(../font/S-CoreDream-2ExtraLight.woff) format('woff'),
+        url(../font/S-CoreDream-3Light.ttf) format('truetype'),
+        url(../font/S-CoreDream-3Light.woff) format('woff'),
+        url(../font/S-CoreDream-4Regular.ttf) format('truetype'),
+        url(../font/S-CoreDream-4Regular.woff) format('woff'),
+        url(../font/S-CoreDream-5Medium.ttf) format('truetype'),
+        url(../font/S-CoreDream-5Medium.woff) format('woff'),
+        url(../font/S-CoreDream-6Bold.ttf) format('truetype'),
+        url(../font/S-CoreDream-6Bold.woff) format('woff'),
+        url(../font/S-CoreDream-7ExtraBold.ttf) format('truetype'),
+        url(../font/S-CoreDream-7ExtraBold.woff) format('woff'),
+        url(../font/S-CoreDream-8Heavy.ttf) format('truetype'),
+        url(../font/S-CoreDream-8Heavy.woff) format('woff'),
+        url(../font/S-CoreDream-9Black.ttf) format('truetype'),
+        url(../font/S-CoreDream-9Black.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+/* 공통 */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #222;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 공통 클래스 */
+/* IR(image replacement) */
+.ir {
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+/*겉박스*/
+.page{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*outline: 2px dotted blue;*/
+}
+/*중앙정렬 속박스*/
+.inbox{
+    position: relative;
+    width: 100%;
+/*    outline: 1px dashed red;*/
+    width: 1920px;
+    max-width: 100%;
+    margin: 0 auto;
+}
