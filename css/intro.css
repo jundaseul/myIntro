@@ -11,13 +11,12 @@
 /*책 박스*/
 .book {
     position: relative;
-    width: 33.5vmax;
-    height: 74.5%;
+    width: 57vmin;
+    height: 80vmin;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    /*    background: url(../images/bg_01.jpg) no-repeat center/cover;*/
-    background-color: #DD6539;
+    background: url(../images/cover_bg.jpg) no-repeat center/cover;
     box-shadow: -13px 13px 40px rgba(0, 0, 0, 0.25);
     font-family: 'S-CoreDream';
 }
@@ -29,6 +28,7 @@
     width: 2.5%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.15);
+    margin-left: 10px;
 }
 
 /*하얀색 테두리박스*/
@@ -61,7 +61,7 @@
 
 /*타이틀 1*/
 .tit1 {
-    top: -78px;
+    top: -65px;
     left: 90px;
 }
 
@@ -71,9 +71,8 @@
     position: absolute;
     display: block;
     width: 90px;
-    /*background: url(../images/bg_01.jpg) no-repeat center/cover;*/
-    background-color: #DD6539;
-    height: 7px;
+    background: url(../images/cover_bg.jpg) no-repeat center/cover;
+    height: 10px;
     left: 0px;
     top: 47%;
     z-index: -1;
@@ -81,7 +80,7 @@
 
 /*타이틀 2*/
 .tit2 {
-    bottom: -106px;
+    bottom: -90px;
     right: 90px;
 }
 
@@ -91,8 +90,7 @@
     position: absolute;
     display: block;
     width: 90px;
-    /*background: url(../images/bg_01.jpg) no-repeat center/cover;*/
-    background-color: #DD6539;
+    background: url(../images/cover_bg.jpg) no-repeat center/cover;
     height: 7px;
     left: 0px;
     top: 48%;
@@ -107,13 +105,13 @@
     width: 95px;
     height: 95px;
     border-radius: 50%;
-    background-color: #37A576;
+    background: url(../images/circle_bg.jpg) no-repeat center/cover;
     z-index: -1;
 }
 
 
 /*2020년*/
-.year{
+.year {
     position: absolute;
     right: 0;
     top: 50%;
@@ -125,7 +123,7 @@
 }
 
 /*이름*/
-.name{
+.name {
     position: absolute;
     bottom: 3%;
     right: 8%;
@@ -133,9 +131,3 @@
     font-size: 12px;
     font-weight: 600;
 }
-
-
-
-
-
-

@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* page_01.css - 책 1번 페이지 / 8번 페이지 */
+
+/*상단공간밀기*/
+body{
+    padding-top: 50px;
+    background-color: #E8EAE9;
+}
+
+/*책 박스*/
+#book_wrap{
+    
+}
+
+
+
+#book_wrap .inbox{
+/*    width: 75%;*/
+    box-shadow: -13px 13px 40px rgba(0, 0, 0, 0.25);
+    background: url(../images/book_bg_2.jpg) no-repeat center/cover;
+}
+
+
+
+/*속박스 높이값*/
+.book_01{
+    height: 86vmin;
+    font-family: 'S-CoreDream';
+}
+
+.book_box{
+    position: relative;
+    display: flex;
+    height: 100%;
+}
+
+/*중앙 구분선*/
+.centerLine{
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: #c9c9c9;
+    left: 50%;
+    transform:translateX(-50%);
+    box-shadow: 0px 13px 37px rgba(0, 0, 0.9);
+    z-index: 9999;
+}
+
+
+.book_left{
+    position: relative;
+    width: 50%;
+/*    background-color: #333;*/
+}
+
+/*소개글 영역*/
+.book_01_left{
+    width: 52%;
+    height: 100%;
+    background: url(../images/cover_bg.jpg) no-repeat center/cover;
+    padding: 70px 35px;
+    color: #fff;
+}
+
+/*이름*/
+.writter{
+    position: relative;
+    writing-mode: tb-rl;
+    /*글씨 세로정렬*/
+    font-size: 25px;
+    height: 220px;
+    letter-spacing: 7.2px;
+}
+
+/*이름 옆 선*/
+.writter::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+    right: -15px;
+    top: 0;
+}
+
+.book_01_left p{
+    padding-top: 45px;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+
+
+/*오른쪽 박스*/
+.book_right{
+    position: relative;
+    width: 50%;
+}
+
+
+
+/*오른쪽박스 글*/
+.right_txt{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 19px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+
+
+/*page_08 ******************************************/
+.book_01_left.page_8{
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
