@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*포트폴리오 2번 페이지*/
+
+/*레인디어 사이트 이미지 변경*/
+.pofol_img.rein_img {
+    right: auto;
+    left: 10vmin;
+    background: url(../images/pofoli_2.jpg) no-repeat center/cover;
+}
+
+.pofol_img.rein_img::before {
+    left: auto;
+    right: -13vmin;
+}
+
+
+.pofol_info.pofol2_info {
+    text-align: left;
+    left: 26vmin;
+}
+
+/*다이아몬드 아이콘*/
+.pofol_icon.pofol2_icon {
+    right: auto;
+    left: -2.9vmin;
+}
+
+/*반응형 웹 글씨*/
+.pofol_tit > small {
+    display: block;
+    font-size: 4vmin;
+    margin-top: -18px;
+}
+
+
+/*포폴 소개(about)*/
+.pofol_about.pofol2_about{
+    left: auto;
+    right: 10vmin;
+}
+
+
+/*영상*/
+.pofol_1.porol_2{
+    left: auto;
+    right: 28%;
+}
+

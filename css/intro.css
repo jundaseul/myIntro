@@ -61,7 +61,7 @@
 
 /*타이틀 1*/
 .tit1 {
-    top: -9vmin;
+    top: -7vmin;
     left: 9vmin;
 }
 
@@ -74,13 +74,13 @@
     background: url(../images/cover_bg.jpg) no-repeat center/cover;
     height: 2vmin;
     left: 0px;
-    top: 7vmin;
+    top: 6vmin;
     z-index: -1;
 }
 
 /*타이틀 2*/
 .tit2 {
-    bottom: -11vmin;
+    bottom: -10vmin;
     right: 9vmin;
 }
 
@@ -93,7 +93,7 @@
     background: url(../images/cover_bg.jpg) no-repeat center/cover;
     height: 2vmin;
     left: 0vmin;
-    top: 10vmin;
+    top: 11vmin;
     z-index: -1;
 }
 
@@ -130,4 +130,80 @@
     color: #fff;
     font-size: 1.3vmin;
     font-weight: 600;
+}
+
+
+
+
+
+/* 책 마지막 페이지*********************************************************/
+.book.lastbook::before {
+    margin-left: auto;
+    margin-right: 1.2vmin;
+}
+
+/*코멘트 박스*/
+.comment {
+    position: absolute;
+    top: 21vmin;
+    left: 6vmin;
+    color: #fff;
+    font-size: 1.63vmin;
+    font-weight: 600;
+    line-height: 2.8vmin;
+    padding-left: 1vmin;
+}
+
+.comment small {
+    font-size: 14px;
+    padding-left: 1vmin;
+}
+
+/*각 문단*/
+.comt {
+    padding-bottom: 3.2vmin;
+}
+
+
+/*대각선*/
+.diagonal {
+    position: absolute;
+    width: 45vmin;
+    height: 1px;
+    top: 15vmin;
+    left: 6vmin;
+    background-color: #fff;
+    transform: rotate(13deg);
+}
+
+/*아래 대각선*/
+.diagonal.diag2 {
+    top: 54vmin;
+    transform: rotate(-13deg);
+}
+
+/*동그라미*/
+.circle.lastCircle {
+    top: 9vmin;
+    right: 18vmin;
+}
+
+
+/*저작권 문구*/
+.copyright {
+    width: 100%;
+    position: absolute;
+    bottom: 2.5vmin;
+    color: #fff;
+    font-size: 1.2vmin;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*바코드*/
+.barcode {
+    position: absolute;
+    width: 14vmin;
+    bottom: 8vmin;
+    right: 6vmin;
 }

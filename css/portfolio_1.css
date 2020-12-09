@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* portfolio.css - 포폴 페이지 */
+
+
+/*왼쪽페이지*/
+.book_left,
+.book_right {
+    display: flex;
+}
+
+.sideCont {
+    position: relative;
+    width: 8.5vmin;
+    font-family: 'Noto Sans KR', sans-serif;
+    border-right: 1px solid #333;
+    padding-top: 9%;
+}
+
+/*사이드 페이지번호*/
+.sidePaging {
+    position: absolute;
+    top: 6.5vmin;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+    font-size: 3.5vmin;
+    font-weight: 700;
+}
+
+/*사이드 페이지 동그라미*/
+.sideCircle {
+    display: block;
+    width: 3vmin;
+    height: 3vmin;
+    border-radius: 50%;
+    background-color: #E6CA88;
+    margin-left: 36px;
+    margin-top: -13px;
+
+}
+
+/*사이드 목차텍스트*/
+.sideContxt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    /*글씨 세로 타이핑*/
+    font-size: 2.1vmin;
+    font-weight: 400;
+    letter-spacing: 11px;
+}
+
+
+/*포트폴리오 내용*/
+.pofol_info {
+    position: relative;
+    left: 12vmin;
+    top: 15vmin;
+    width: 37vmin;
+    color: #4A473C;
+    font-size: 2.3vmin;
+    font-weight: 900;
+    text-align: right;
+}
+
+
+.pofol_tit {
+    font-family: 'Secular One', sans-serif;
+    font-size: 5vmin;
+    padding-bottom: 5px;
+}
+
+.pofol_info p {
+    line-height: 3.2vmin;
+    font-weight: bold;
+}
+
+.pofol_info small {
+    font-size: 2vmin;
+}
+
+
+/*다이아몬드 모양*/
+.pofol_icon {
+    position: absolute;
+    top: 3.3vmin;
+    right: -2.9vmin;
+    width: 0.8vmin;
+    height: 0.8vmin;
+    background-color: #333;
+    transform: rotate(45deg);
+}
+
+/*사이트뷰 버튼*/
+.siteBtn {
+    width: 13vmin;
+    height: 4.6vmin;
+    border: 1px solid #4A473C;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2.5vmin;
+    font-size: 1.47vmin;
+    cursor: pointer;
+}
+
+/*포폴 동영상*/
+.pofol_1 {
+    position: absolute;
+    width: 58vmin;
+    height: 35vmin;
+    bottom: 12%;
+    left: 28%;
+    z-index: 999;
+}
+
+
+
+/*오른쪽 페이지*/
+.book_right {
+    position: relative;
+}
+
+/*포폴 페이지사진*/
+.pofol_img {
+    position: relative;
+    top: 11vmin;
+    right: 10vmin;
+    width: 75vmin;
+    height: 47vmin;
+    background: url(../images/pofoli_1.jpg) no-repeat center/cover;
+}
+
+/*박스 옆 선*/
+.pofol_img::before {
+    content: '';
+    display: block;
+    width: 13vmin;
+    height: 1px;
+    background-color: #333;
+    position: absolute;
+    top: 7.5vmin;
+    left: -13vmin;
+}
+
+
+
+/*오른쪽 사이드 목차*/
+.sideCont.right {
+    margin-left: auto;
+    border-left: 1px solid #333;
+    border-right: none;
+}
+
+
+/*사이드 페이지번호*/
+.sidePaging.right {
+    bottom: 6.5vmin;
+    top: auto;
+}
+
+
+/*포폴 컨셉, 내용*/
+.pofol_about {
+    position: absolute;
+    left: 10vmin;
+    bottom: 14vmin;
+    text-align: inherit;
+    vertical-align: top;
+
+}
+
+
+.poabout_top,
+.pofol_bottom {
+    display: flex;
+}
+
+.poabout_top {
+    padding-bottom: 35px;
+}
+
+.poabout_tit {
+    width: 140px;
+    font-family: 'Rock Salt', cursive;
+    color: #9E6853;
+    font-size: 2.3vmin;
+    line-height: 2.3vmin;
+    font-weight: 600;
+}
+
+.poabout_cont {
+    font-size: 1.85vmin;
+    line-height: 3.3vmin;
+    font-weight: bold;
+}

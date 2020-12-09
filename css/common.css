@@ -1,11 +1,120 @@
 @charset "utf-8";
 
 /* common.css - 공통레이아웃 */
+/*책 박스*/
+#book_wrap .inbox {
+    width: 82%;
+    box-shadow: -13px 13px 40px rgba(0, 0, 0, 0.25);
+    background: url(../images/book_bg_2.jpg) no-repeat center/cover;
+}
+
+/*속박스 높이값*/
+.book_01 {
+    height: 100vh;
+    font-family: 'S-CoreDream';
+}
+
+.book_box {
+    position: relative;
+    display: flex;
+    height: 100%;
+}
+
+/*중앙 구분선*/
+.centerLine {
+    position: absolute;
+    width: 0.6vmin;
+    height: 100%;
+    background-color: #c9c9c9;
+/*    background-color: #878787;*/
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 13px 37px rgba(0, 0, 0.9);
+/*    box-shadow: 0px 20px 21px #7B7B79;*/
+    z-index: 9999;
+}
 
 
-/* 전체 wrap *****************************/
+.book_left {
+    position: relative;
+    width: 50%;
+    /*    background-color: #333;*/
+}
+
+/*목차페이지 왼쪽영역*/
+.book_left.contents {
+    font-family: 'Merriweather', serif;
+    background: url(../images/content_bg.jpg) no-repeat center/cover;
+    padding-left: 7.5vmin;
+    color: #fff;
+}
+
+/*왼쪽 컨텐츠 영역*/
+.main_cont{
+    width: 90%;
+    position: relative;
+}
+
+/*목차 타이틀*/
+.content_tit,
+.content_tit2 {
+    writing-mode: tb-rl;
+    /*글씨 세로정렬*/
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.content_tit {
+    position: relative;
+    font-size: 7vmin;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.content_tit::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 1px;
+    height: 26%;
+    background-color: #fff;
+    left: 50%;
+    top: 44%;
+    transform: translateX(-50%);
+}
 
 
+.content_tit2 {
+    position: absolute;
+    bottom: 15px;
+    font-size: 5.4vmin;
+    padding-left: 1%;
+}
+
+
+
+/*목차 오른쪽영역 ************************************************/
+
+.contents_txt {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: 'Merriweather', serif;
+    padding: 8vmin 8vmin 0 0;
+    font-style: italic;
+}
+
+.contents_txt li {
+    text-align: center;
+    width: 6.4vmin;
+    margin-left: auto;
+}
+
+/*숫자*/
+.contxt_num {
+    font-size: 4.8vmin;
+    padding-bottom: 2vmin;
+}
 
 
 
@@ -16,24 +125,33 @@
 
 
 
-
-
-
-
-/* 푸터 *****************************/
-
-
-
-
 /* gnb *****************************/
-#gnb_box{
-    position: fixed;
-    right: 2%;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.2vmin;
-    line-height: 55px;
-    margin-top: -2.5vmin;
+
+
+
+/* 메뉴 svg *****************************/
+.menusvg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 9vw;
+    border-radius: 50%;
+/*    padding: 15px;*/
+}
+
+.menusvg text {
+/*
+    font-size: 3.6rem;
+    letter-spacing: 0.2em;
+*/
+    font-size: 42px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 23px;
+    fill: #333;
+}
+
+.svgtext{
+    letter-spacing: 45px;
 }

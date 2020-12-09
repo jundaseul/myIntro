@@ -2,78 +2,9 @@
 /* contents.css - 목차 페이지 */
 
 
-/*목차페이지 왼쪽영역*/
-.book_left.contents {
-    font-family: 'Merriweather', serif;
-    background: url(../images/content_bg.jpg) no-repeat center/cover;
-    padding-left: 70px;
-    color: #fff;
-}
-
-/*목차 타이틀*/
-.content_tit,
-.content_tit2 {
-    writing-mode: tb-rl;
-    /*글씨 세로정렬*/
-    font-style: italic;
-    letter-spacing: 1px;
-}
-
-.content_tit {
-    position: relative;
-    font-size: 65px;
-    font-weight: 700;
-}
-
-.content_tit::after {
-    position: absolute;
-    content: '';
-    display: block;
-    width: 1px;
-    height: 26%;
-    background-color: #fff;
-    left: 50%;
-    top: 44%;
-    transform: translateX(-50%);
-}
-
-
-.content_tit2 {
-    position: absolute;
-    bottom: 8px;
-    font-size: 50px;
-    padding-left: 1%;
-}
-
-
-
-/*목차 오른쪽영역 ************************************************/
-
-.contents_txt {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-family: 'Merriweather', serif;
-    padding: 75px 75px 0 0;
-    font-style: italic;
-}
-
-.contents_txt li {
-    text-align: center;
-    width: 60px;
-    margin-left: auto;
-}
-
-/*숫자*/
-.contxt_num {
-    font-size: 45px;
-    padding-bottom: 20px;
-}
-
-
 /*반점이미지*/
 .contxt_icon {
-    padding-bottom: 32px;
+    padding-bottom: 3.5vmin;
     transform: rotate(4deg);
 }
 
@@ -84,7 +15,7 @@
 /*링크(텍스트)*/
 .contxt_link {
     position: relative;
-    font-size: 38px;
+    font-size: 4.1vmin;
     writing-mode: vertical-rl;
     text-orientation: upright;
     /*글씨 세로 타이핑*/
@@ -100,7 +31,7 @@
     position: absolute;
     display: block;
     width: 1px;
-    height: 254px;
+    height: 27.5vmin;
     top: 100%;
     right: 50%;
     background-color: #B5B5B5;
@@ -109,10 +40,10 @@
 /*목차 페이징번호*/
 .contxt_paging{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 17px;
+    font-size: 1.8vmin;
     font-style: normal;
     font-weight: 400;
-    padding-top: 273px;
+    padding-top: 29.6vmin;
     letter-spacing: 1px;
 }
 
@@ -121,16 +52,16 @@
 .contents_txt_2{
     position: absolute;
     top: 0;
-    right: 85px;
+    right: 8.9vmin;
 }
 
 .contents_txt_2 .contxt_link::after{
-    height: 28%;
+    height: 11.6vmin;
 }
 
 
 .contents_txt_2 .contxt_paging{
-    padding-top: 125px;
+    padding-top: 13.4vmin;
 }
 
 
@@ -139,15 +70,15 @@
 .contents_txt_3{
     position: absolute;
     top: 0;
-    right: 170px;
+    right: 18.2vmin;
 }
 
 .contents_txt_3 .contxt_link::after{
-    height: 60%;
+    height: 19.5vmin;
 }
 
 .contents_txt_3 .contxt_paging{
-    padding-top: 198px;
+    padding-top: 21.2vmin;
 }
 
 

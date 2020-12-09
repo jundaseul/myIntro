@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/*컨택 페이지*/
+
+/*사이드 원 색상변경*/
+.contCircle {
+    background-color: #717D1C;
+}
+
+
+/*왼쪽영역 배경깔기*/
+.cont_left {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../images/contact_bg.jpg) no-repeat center/cover;
+}
+
+/*메인 타이틀제목*/
+.cont_left h2 {
+    text-align: right;
+    color: #4A4AC9;
+    line-height: 4.8vmin;
+    font-size: 2.3vmin;
+    font-family: 'Rock Salt', cursive;
+    padding: 8vmin 6vmin 0 0;
+    text-transform: uppercase;
+}
+
+.cont_left small {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #4A473C;
+    font-size: 16px;
+    line-height: 28px;
+    display: block;
+}
+
+/*리스트 목록 박스*/
+.favoList {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid #333;
+    margin: 30px auto;
+
+}
+
+.favoList li {
+    display: flex;
+    height: 21.5vmin;
+    width: 100%;
+    border-bottom: 1px solid #333;
+    padding: 2.2vmin;
+}
+
+/*목록 이미지들*/
+.favolist_img {
+    width: 16vmin;
+    margin-right: 3.3vmin;
+}
+
+/*목록 내용*/
+.favoList li p {
+    line-height: 2.8vmin;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #4A473C;
+}
+
+/*목록 제목*/
+.favoList li b {
+    display: block;
+    font-family: 'Secular One', sans-serif;
+    font-size: 1.8vmin;
+    letter-spacing: 1px;
+}
+
+
+
+/* 오른쪽 *********************************************/
+.cont_right {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.contact_info {
+    position: absolute;
+    left: 10%;
+    bottom: 25%;
+}
+
+.contact_info li {
+    display: flex;
+    font-size: 1.9vmin;
+    line-height: 6vmin;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact_info h5 {
+    font-family: 'Rock Salt', cursive;
+    color: #9E6853;
+    width: 140px;
+    font-size: 2vmin;
+    line-height: 6.5vmin;
+    font-weight: 600;
+}
+
+
+/*이력서, 이메일 버튼*/
+.contactBtn {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translateX(-50%);
+    display: flex;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.contactBtn > div {
+    width: 50%;
+    text-align: center;
+}
+
+.contactBtn > div > a {
+    display: block;
+    padding: 1.4vmin;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vmin;
+}
+
+.contactBtn > div:first-child {
+    border-right: 1px solid #333;
+}
