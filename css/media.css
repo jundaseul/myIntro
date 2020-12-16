@@ -1,0 +1,911 @@
+@charset "UTF-8";
+
+/*미디어쿼리*/
+/*1800px*/
+@media only screen and (max-width:1800px) {
+    /*공통사항 ************************************/
+
+    /*about 페이지 ********************************/
+    .btn1 {
+        top: 10%;
+    }
+
+    .btn2 {
+        width: 18.5vmin;
+        height: 18.5vmin;
+        left: -5%;
+        top: 33%;
+    }
+
+    .btn4 {
+        left: 18%;
+        bottom: 5%;
+    }
+
+    .btn5 {
+        bottom: 10%;
+        right: -2%;
+    }
+
+
+    /*portfolio 페이지 ********************************/
+    .pofol_img::before {
+        width: 19vmin;
+    }
+
+    .pofol_info {
+        left: 8vmin;
+    }
+
+}
+
+
+/*1680px*/
+@media only screen and (max-width:1680px) {
+
+    /*공통사항 ************************************/
+    .menubtn {
+        right: 0;
+    }
+
+    /*portfolio 페이지 ********************************/
+    .pofol_img {
+        right: 10vmin;
+        width: 73vmin;
+    }
+
+    .pofol_img::before {
+        width: 10vmin;
+    }
+
+    .pofol_1 {
+        width: 54vmin;
+        bottom: 13vmin;
+        left: 14vmin;
+    }
+
+    .pofol_about {
+        left: 7vmin;
+        bottom: 13vmin;
+    }
+
+}
+
+
+/*1600px*/
+@media only screen and (max-width:1600px) {
+
+    /*공통사항 ************************************/
+    /*전체 책 박스(속박스)*/
+    #book_wrap .inbox {
+        width: 82%;
+    }
+
+
+    /*about 페이지 ********************************/
+    .about_list {
+        padding: 50px 30px;
+    }
+
+    .introText {
+        left: 7vmin;
+        bottom: 7vmin;
+        font-size: 2.15vmin;
+    }
+
+    .list_text {
+        font-size: 1.9vmin;
+    }
+
+    /*portfolio 페이지 ********************************/
+    .pofol_img::before {
+        width: 10vmin;
+        top: 7.7vmin;
+    }
+
+    .pofol_1 {
+        left: 9vmin;
+    }
+
+}
+
+
+/*1550*/
+@media only screen and (max-width:1550px) {
+
+    /*공통사항 ************************************/
+    /*전체 책 박스(속박스)*/
+    #book_wrap .inbox {
+        width: 90%;
+    }
+
+    /*portfolio 페이지 ********************************/
+    .pofol_img {
+        right: 12vmin;
+        width: 80vmin;
+    }
+
+    .pofol_img::before {
+        width: 15vmin;
+    }
+
+    .pofol_1 {
+        bottom: 17vmin;
+        left: 14vmin;
+    }
+
+    .pofol_info {
+        left: 5vmin;
+    }
+
+}
+
+
+/*1400px*/
+@media only screen and (max-width:1400px) {
+    /*공통사항 **************************************/
+
+    /*전체 책 박스(속박스)*/
+    #book_wrap .inbox {
+        width: 100vw;
+    }
+
+    /*svg메뉴 없애기*/
+    .menubtn {
+        display: none;
+    }
+
+    /*메뉴버튼2 나타나기 */
+    .menubtn2 {
+        display: block;
+    }
+
+    /*portfolio 페이지 ********************************/
+    .pofol_img {
+        width: 76vmin;
+    }
+
+    .pofol_img::before {
+        width: 16vmin;
+    }
+
+    .pofol_1 {
+        bottom: 13vmin;
+        left: 9vmin;
+    }
+}
+
+
+/*1310px*/
+@media only screen and (max-width:1310px) {
+
+    /*공통사항 **************************************/
+    .sideCircle {
+        margin-left: 34px;
+        margin-top: -7px;
+    }
+
+    /*about 페이지 ********************************/
+    .list_title {
+        width: 150px;
+    }
+
+    .introText {
+        font-size: 2vmin;
+    }
+
+    /*portfolio 페이지 ********************************/
+    .pofol_img {
+        width: 75vmin;
+    }
+
+    .pofol_img::before {
+        width: 9vmin;
+    }
+
+    .pofol_1 {
+        width: 53vmin;
+        left: 10vmin;
+        bottom: 15vmin;
+    }
+
+    .poabout_tit {
+        width: 135px;
+    }
+
+    .poabout_cont {
+        font-size: 2vmin;
+    }
+
+}
+
+/*1280px*/
+@media only screen and (max-width:1280px) {
+
+    /*about 페이지 ********************************/
+    .list_box {
+        padding: 30px 25px;
+    }
+
+    .list_title {
+        font-size: 1.7vmin;
+    }
+
+    .quotes {
+        width: 7.5vmin;
+    }
+}
+
+
+/*1240px*/
+@media only screen and (max-width:1240px) {
+
+    /*공통사항 **************************************/
+    .sideCircle {
+        margin-left: 33px;
+        margin-top: -5px;
+    }
+
+    /*about 페이지 ********************************/
+    .about_list {
+        padding: 79px 60px;
+    }
+
+    .list_box {
+        padding: 20px 10px;
+    }
+
+    /*portfolio 페이지 ********************************/
+    .pofol_img {
+        width: 70vmin;
+        height: 45vmin;
+        right: 8vmin;
+    }
+
+    .pofol_img::before {
+        width: 11vmin;
+    }
+
+    .pofol_about {
+        left: 4vmin;
+        bottom: 15vmin;
+    }
+
+    .pofol_1 {
+        left: 8vmin;
+        bottom: 13vmin;
+    }
+
+}
+
+
+/*1200px*/
+@media only screen and (max-width:1200px) {
+
+    /*about 페이지 ********************************/
+    .list_title {
+        width: 130px;
+    }
+
+    /*portfolio 페이지 ********************************/
+    .pofol_img {
+        height: 43vmin;
+    }
+
+    .pofol_img::before {
+        width: 8vmin;
+    }
+
+    .pofol_1 {
+        width: 51vmin;
+        left: 6vmin;
+        bottom: 18vmin;
+    }
+}
+
+
+
+/*1160px*/
+@media only screen and (max-width:1160px) {
+
+    /*about 페이지 ********************************/
+    .about_list {
+        padding: 79px 40px;
+    }
+
+    .quotes {
+        width: 6.5vmin;
+        left: 2.5vmin;
+        top: 14.5vmin;
+    }
+
+    .main_cont.about > b {
+        font-size: 2.8vmin;
+        left: 5vmin;
+    }
+
+    .profile {
+        width: 40.5vmin;
+        left: 16vmin;
+        top: 12vmin;
+    }
+
+    /*portfolio 페이지 ********************************/
+    .pofol_img {
+        width: 66vmin;
+        height: 40vmin;
+    }
+
+    .pofol_img::before {
+        width: 9vmin;
+    }
+
+    .pofol_info {
+        left: 2vmin;
+    }
+
+    .poabout_tit {
+        width: 126px;
+        font-size: 2.2vmin;
+        line-height: 3.3vmin;
+    }
+
+    .poabout_cont {
+        font-size: 1.9vmin;
+    }
+
+}
+
+
+
+/*1080px*/
+@media only screen and (max-width:1080px) {
+
+    /*about 페이지 ********************************/
+    .introText {
+        left: 4vmin;
+        font-size: 1.9vmin;
+    }
+
+    .profile {
+        width: 37.5vmin;
+        left: 16.7vmin;
+        top: 16vmin;
+    }
+
+    /*portfolio 페이지 ********************************/
+    .pofol_img {
+        width: 62vmin;
+    }
+
+    .pofol_img::before {
+        width: 6.5vmin;
+    }
+
+    .pofol_1 {
+        width: 47vmin;
+        left: 5vmin;
+        bottom: 18vmin;
+    }
+
+    .pofol_info {
+        left: 0;
+    }
+
+}
+
+/*1024px - 아이패드pro */
+@media only screen and (max-width:1024px) {
+
+    /*공통사항 ************************************/
+
+    .cbtn {
+        width: 45px;
+    }
+
+    .submenu {
+        display: block;
+    }
+
+    .menu_box .gnb {
+        line-height: 158px;
+    }
+
+    .menu_box .gnb sup {
+        font-size: 30px;
+        padding-right: 25px;
+    }
+
+    .menu_box .gnb li sup::after {
+        height: 30px;
+        left: 55px;
+    }
+
+    .menu_box .gnb > li > a {
+        font-size: 80px;
+    }
+
+    .menu_portfolio .submenu > li > a {
+        font-size: 44px;
+        line-height: 70px;
+    }
+
+    .submenu b {
+        width: 310px;
+    }
+
+
+
+    /*전체 책 **************/
+    .book_left {
+        width: 100vw;
+    }
+
+    .main_cont {
+        width: 100vw;
+    }
+
+    .book_right {
+        display: none;
+        /*        display: flex;*/
+        width: 100vw;
+    }
+
+    .centerLine {
+        display: none;
+    }
+
+    .sideCont {
+        width: 11vmin;
+    }
+
+    .sidePaging {
+        font-size: 4.6vmin;
+    }
+
+    .sideCircle {
+        width: 4vmin;
+        height: 4vmin;
+        margin-left: 47px;
+        margin-top: -31px;
+    }
+
+    .sideContxt {
+        font-size: 3.3vmin;
+    }
+
+
+    /*next 버튼*/
+    .nextBtn {
+        display: block;
+        font-size: 33px;
+        bottom: 2%;
+    }
+
+    /*메뉴버튼*/
+    .menubtn2 {
+        top: 40px;
+        width: 40px;
+    }
+
+
+
+    /*about 페이지 ********************************/
+    .profile {
+        width: 53vmin;
+        left: 31vmin;
+        top: 11vmin;
+    }
+
+    .quotes {
+        width: 9vmin;
+        left: 4vmin;
+        top: 13vmin;
+    }
+
+    .main_cont.about > b {
+        font-size: 4.6vmin;
+        line-height: 6.5vmin;
+        left: 8vmin;
+        top: 20vmin;
+    }
+
+    .introText {
+        left: 8vmin;
+        bottom: 12vmin;
+        font-size: 2.85vmin;
+        line-height: 4.3vmin;
+    }
+
+    .list_box {
+        padding: 55px 10px;
+    }
+
+    .list_title {
+        width: 200px;
+        font-size: 2.4vmin;
+        line-height: 5.5vmin
+    }
+
+    .list_title.licen {
+        font-size: 3vmin;
+    }
+
+    .list_text {
+        font-size: 2.8vmin;
+        line-height: 4.4vmin;
+        color: #333;
+    }
+
+    .about_list {
+        padding: 30px 85px;
+    }
+
+    /*스킬 svg*/
+    .btn1 {
+        width: 27vmin;
+        height: 27vmin;
+        left: 52%;
+        top: 0;
+        font-size: 6.8vmin;
+        line-height: 21vmin;
+    }
+
+    .btn2 {
+        width: 25.8vmin;
+        height: 25.8vmin;
+        left: -1%;
+        top: 31%;
+        font-size: 5.5vmin;
+        line-height: 21vmin;
+    }
+
+    .btn3 {
+        width: 24vmin;
+        height: 24vmin;
+        right: -2%;
+        top: 14%;
+        font-size: 5.6vmin;
+        line-height: 17vmin;
+    }
+
+    .btn4 {
+        width: 25.5vmin;
+        height: 25.5vmin;
+        left: 23%;
+        bottom: -20%;
+        font-size: 6vmin;
+        line-height: 20vmin;
+    }
+
+    .btn5 {
+        width: 26vmin;
+        height: 26vmin;
+        bottom: -23%;
+        right: 3%;
+        font-size: 6vmin;
+        line-height: 21vmin;
+    }
+
+    .btn3 h5,
+    .btn4 h5 {
+        line-height: 3.3vmin;
+        font-size: 2.7vmin;
+    }
+
+
+    .skiltit {
+        font-size: 2.9vmin;
+    }
+
+
+    /*portfolio 페이지 ********************************/
+    .pofol_1 {
+        width: 82vmin;
+        height: 50vmin;
+        left: 50%;
+        top: 53%;
+        transform: translate(-50%, -50%);
+    }
+
+    .pofol_info {
+        width: 80vmin;
+        text-align: left;
+        top: 13vmin;
+        left: 8%;
+    }
+
+    .pofol_info p {
+        line-height: 5vmin;
+        font-size: 3.7vmin;
+    }
+
+    .pofol_info small {
+        font-size: 3.3vmin;
+    }
+
+    .pofol_tit {
+        font-size: 8vmin;
+        padding-bottom: 0;
+        padding-left: 5%;
+    }
+
+    .pofol_icon {
+        top: 5.3vmin;
+        left: 0;
+        right: auto;
+        width: 1vmin;
+        height: 1vmin;
+
+    }
+
+    .siteBtn {
+        display: none;
+    }
+
+    /*site view 버튼*/
+    .viewBtn {
+        display: none;
+    }
+
+    /*오른쪽영역*/
+    .pofol_img {
+        width: 83vmin;
+        height: 47vmin;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .pofol_img::before {
+        display: none;
+    }
+
+    .pofol_about {
+        left: 7vmin;
+        bottom: 32vmin;
+    }
+
+    .poabout_tit {
+        width: 220px;
+        font-size: 3.5vmin;
+        line-height: 5.5vmin;
+    }
+
+    .poabout_cont {
+        font-size: 2.8vmin;
+        line-height: 5.5vmin;
+    }
+
+    /*site view 버튼*/
+    .viewBtn.media {
+        display: block;
+    }
+
+}
+
+/*768px - 아이패드*/
+@media only screen and (max-width:768px) {
+
+    /*공통사항 ************************************/
+    .menu_box .gnb {
+        line-height: 110px;
+    }
+
+    .menu_box .gnb sup {
+        font-size: 22px;
+    }
+
+    .menu_box .gnb > li > a {
+        font-size: 75px;
+    }
+
+    /*portfolio 페이지 ********************************/
+    .poabout_tit {
+        width: 160px;
+    }
+
+    .sideCircle {
+        margin-left: 34px;
+        margin-top: -23px;
+    }
+
+    .pofol_tit {
+        font-size: 8.4vmin;
+    }
+
+    .pofol_icon {
+        top: 5.5vmin;
+        width: 1.2vmin;
+        height: 1.2vmin;
+    }
+
+    .pofol_info p {
+        font-size: 4.1vmin;
+        line-height: 5.8vmin;
+    }
+
+    .pofol_info small {
+        font-size: 3.8vmin;
+    }
+}
+
+
+/*375px - 아이폰6/7/8*/
+@media only screen and (max-width:480px) {
+
+    /*공통사항 ************************************/
+    .cbtn {
+        width: 25px;
+    }
+
+    .menu_box .gnb {
+        line-height: 65px;
+    }
+
+    .menu_box .gnb > li > a {
+        font-size: 35px;
+    }
+
+    .menu_portfolio .submenu > li > a {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .submenu {
+        display: block;
+    }
+
+    .submenu b {
+        width: 175px;
+    }
+
+    .menu_box .gnb sup {
+        font-size: 13px;
+        padding-right: 15px;
+    }
+
+    .menu_box .gnb li sup::after {
+        height: 16px;
+        left: 25px;
+        bottom: -3px;
+    }
+
+
+
+    /*전체 책 **************/
+    .menubtn2 {
+        top: 20px;
+        width: 22px;
+    }
+
+
+    /*about 페이지 ********************************/
+    .sideCont {
+        width: 14vmin;
+    }
+
+    .sideContxt {
+        font-size: 5vmin;
+        letter-spacing: 5px;
+    }
+
+    .sidePaging {
+        font-size: 6vmin;
+    }
+
+    .sideCircle {
+        width: 5.3vmin;
+        height: 5.3vmin;
+        margin-left: 21px;
+        margin-top: -14px;
+    }
+
+    .profile {
+        width: 63vmin;
+        left: 20vmin;
+        top: 25vmin;
+    }
+
+    .introText {
+        font-size: 3.6vmin;
+        left: 5vmin;
+        bottom: 19vmin;
+        line-height: 5.5vmin;
+    }
+
+    .nextBtn {
+        font-size: 18px;
+    }
+
+    .quotes {
+        width: 11vmin;
+        left: 3vmin;
+        top: 10vmin;
+    }
+
+    .main_cont.about > b {
+        font-size: 5.5vmin;
+        line-height: 7.5vmin;
+        left: 6vmin;
+        top: 19vmin;
+    }
+
+    .about_list {
+        padding: 20px 20px;
+    }
+
+    .list_title {
+        font-size: 3.1vmin;
+        width: 90px;
+    }
+
+    .list_box {
+        padding: 30px 0px;
+    }
+
+    .list_text {
+        font-size: 3.8vmin;
+        line-height: 6.5vmin;
+    }
+
+    .list_title.licen {
+        font-size: 4vmin;
+    }
+
+
+    /*skill svg*/
+    .skiltit {
+        font-size: 3.6vmin;
+    }
+
+    .btn3 h5,
+    .btn4 h5 {
+        line-height: 3.5vmin;
+        font-size: 3vmin;
+    }
+
+    .btn1 {
+        width: 33vmin;
+        height: 33vmin;
+        font-size: 8vmin;
+        line-height: 28vmin;
+    }
+
+    .btn2 {
+        width: 28.8vmin;
+        height: 28.8vmin;
+        left: -2%;
+        top: 48%;
+        font-size: 7.5vmin;
+        line-height: 23vmin;
+    }
+
+    .btn3 {
+        width: 27.5vmin;
+        height: 27.5vmin;
+        right: -4%;
+        top: 17%;
+        font-size: 7vmin;
+        line-height: 22vmin;
+    }
+
+    .btn4 {
+        width: 29vmin;
+        height: 29vmin;
+        left: 20%;
+        bottom: -63%;
+        font-size: 7vmin;
+        line-height: 22vmin;
+    }
+
+    .btn5 {
+        width: 30vmin;
+        height: 30vmin;
+        bottom: -56%;
+        right: 2%;
+        font-size: 8vmin;
+        line-height: 25vmin;
+    }
+
+}

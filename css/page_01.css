@@ -107,7 +107,7 @@ body {
     width: 52%;
     height: 100%;
     background: url(../images/cover_bg.jpg) no-repeat center/cover;
-    padding: 70px 35px;
+    padding: 7.5vmin 4vmin;
     color: #fff;
 }
 
@@ -116,8 +116,8 @@ body {
     position: relative;
     writing-mode: tb-rl;
     /*글씨 세로정렬*/
-    font-size: 25px;
-    height: 220px;
+    font-size: 2.8vmin;
+    height: 24vmin;
     letter-spacing: 7.2px;
 }
 
@@ -129,14 +129,14 @@ body {
     width: 1px;
     height: 100%;
     background-color: #fff;
-    right: -15px;
+    right: -1.6vmin;
     top: 0;
 }
 
 .book_01_left p {
-    padding-top: 45px;
-    line-height: 1.8;
-    font-size: 15px;
+    padding-top: 5vmin;
+    line-height: 3.3vmin;
+    font-size: 1.65vmin;
 }
 
 
@@ -156,10 +156,10 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 19px;
+    font-size: 2.5vmin;
     font-weight: 800;
     letter-spacing: 1.2px;
-    line-height: 30px;
+    line-height: 3.5vmin;
 }
 
 

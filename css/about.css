@@ -9,7 +9,7 @@
 /*프로필 이미지 박스*/
 .profile {
     width: 43.5vmin;
-    height: 53vmin;
+    /*    height: 53vmin;*/
     position: relative;
     left: 24vmin;
     top: 8vmin;
@@ -25,7 +25,6 @@
     position: absolute;
     display: inline-block;
     width: 8.5vmin;
-    height: 6.5vmin;
     left: 3.5vmin;
     top: 13.5vmin;
 }
@@ -60,6 +59,7 @@
 .about_list {
     position: absolute;
     width: 100%;
+    height: 100%;
     padding: 50px 90px;
 }
 
@@ -72,14 +72,14 @@
 
 .list_box.list_skill {
     border-bottom: none;
+    display: block;
 }
 
 .list_title {
     font-family: 'Rock Salt', cursive;
     color: #9E6853;
-    font-size: 2vmin;
+    font-size: 1.7vmin;
     line-height: 3.8vmin;
-    font-weight: 600;
     width: 160px;
 }
 
@@ -87,38 +87,90 @@
     line-height: 3.3vmin;
     font-size: 1.85vmin;
     font-weight: 800;
+    color: #4a473c;
 }
 
 /*자격증*/
 .list_title.licen {
-    font-size: 22px;
+    font-size: 2.4vmin;
 }
 
 
 
 /*스킬*/
-.list_skill{
+.list_skill {
     position: relative;
     height: 58vmin;
-    background-color: beige;
 }
 
 
 
 /*탐쌤버전 svg*/
+.btnsvg_box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
 /*버튼박스*/
 .btns {
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 17vmin;
+    height: 17vmin;
     margin: 0 auto;
     /*가로중앙정렬*/
     border-radius: 50%;
     /*원*/
     text-align: center;
-    font: bold 50px/180px 'Secular One';
+    font: bold 4vmin/13.5vmin 'Montserrat';
     color: #222;
-/*    text-shadow: 1px 1px 1px #000;*/
+    font-style: italic;
+}
+
+.btn1 {
+    width: 20vmin;
+    height: 20vmin;
+    left: 54%;
+    transform: translateX(-50%);
+    top: 15%;
+    line-height: 17vmin;
+}
+
+.btn2 {
+    width: 17.5vmin;
+    height: 17.5vmin;
+    left: -2%;
+    top: 32%;
+}
+
+.btn3 {
+    right: -10%;
+    top: 19%;
+    font-size: 4vmin;
+    line-height: 14vmin;
+}
+
+.btn4 {
+    width: 18vmin;
+    height: 18vmin;
+    left: 21%;
+    bottom: 7%;
+    font-size: 4vmin;
+}
+
+.btn5 {
+    width: 18.8vmin;
+    height: 18.8vmin;
+    line-height: 17vmin;
+    bottom: 12%;
+    right: 3%;
+}
+
+
+.btn3 h5, .btn4 h5{
+    line-height: 2.3vmin;
+    top: 54%;
+    font-size: 1.7vmin;
 }
 
 /*svg 설정*/
@@ -130,6 +182,7 @@
     height: 100%;
 }
 
+
 /*circle설정 - 속성들이 일러스트레이터 속성과 매우 유사함!*/
 .c1 {
     fill: transparent;
@@ -140,26 +193,23 @@
     stroke-dashoffset: 300%;
 }
 
-/*스킬 타이틀*/
-.skiltit{
-    position: absolute;
-    bottom: -25px;
-    font-size: 25px;
-    font-family: 'Noto Sans KR';
-    font-weight: 400;
-    left: 49%;
-    transform: translateX(-50%);
-    color: #4d4c4c;
+.c1.c2, .c1.c5 {
+    stroke: #85AEBF;
+}
+.c1.c3, .c1.c4 {
+    stroke: #d0d1d1;
 }
 
-
-/*스킬-html*/
-.btns.btn_html{
-    top: 15%;
+/*스킬 타이틀*/
+.skiltit {
+    position: absolute;
+    font-style: normal;
+    font-size: 1.7vmin;
+    font-family: 'S-CoreDream';
+    font-weight: 700;
+    white-space: nowrap;
+    top: 22%;
     left: 50%;
     transform: translateX(-50%);
 }
-
-
-
 

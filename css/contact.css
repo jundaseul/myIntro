@@ -103,7 +103,6 @@
     width: 140px;
     font-size: 2vmin;
     line-height: 6.5vmin;
-    font-weight: 600;
 }
 
 
@@ -112,25 +111,113 @@
     width: 80%;
     position: absolute;
     left: 50%;
-    bottom: 15%;
+    bottom: 7%;
     transform: translateX(-50%);
-    display: flex;
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
+    cursor: pointer;
 }
 
 .contactBtn > div {
-    width: 50%;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
+    padding: 0 3% 0 5%;
 }
+
 
 .contactBtn > div > a {
     display: block;
-    padding: 1.4vmin;
     font-family: 'Montserrat', sans-serif;
     font-size: 2vmin;
+    text-align: left;
 }
 
 .contactBtn > div:first-child {
-    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.contactBox {
+    display: flex;
+}
+
+.cta-arrow {
+    max-width: 55px;
+    flex-grow: 1;
+    margin-left: auto;
+    margin-right: 15px;
+    padding: 23px 0;
+}
+
+.cta-arrow .line {
+    width: 100%;
+    height: 2px;
+    background: #000;
+    position: relative;
+}
+
+.cta-arrow .line:after,
+.cta-arrow .line:before {
+    background: inherit;
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    content: "";
+    right: 0;
+}
+
+.cta-arrow .line:before {
+    transform: rotate(-50deg);
+    transform-origin: top right;
+}
+
+.cta-arrow .line:after {
+    transform: rotate(50deg);
+    transform-origin: bottom right;
+}
+
+
+/*호버시*/
+.marquee {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    opacity: 0;
+}
+.resume.contactBox:hover .marquee{
+    opacity: 1;
+}
+.email.contactBox:hover .marquee{
+    opacity: 1;
+}
+
+.marquee p {
+    font-size: 17px;
+    display: block;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    padding: 0 30px;
+    text-align: center;
+    white-space: nowrap;
+    animation-name: marquee;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes marquee {
+    from {
+        transform: translate(0%);
+    }
+
+    99%,
+    to {
+        transform: translate(-100%);
+    }
 }

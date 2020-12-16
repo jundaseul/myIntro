@@ -26,11 +26,11 @@
     width: 0.6vmin;
     height: 100%;
     background-color: #c9c9c9;
-/*    background-color: #878787;*/
+    /*    background-color: #878787;*/
     left: 50%;
     transform: translateX(-50%);
     box-shadow: 0px 13px 37px rgba(0, 0, 0.9);
-/*    box-shadow: 0px 20px 21px #7B7B79;*/
+    /*    box-shadow: 0px 20px 21px #7B7B79;*/
     z-index: 9999;
 }
 
@@ -50,7 +50,7 @@
 }
 
 /*왼쪽 컨텐츠 영역*/
-.main_cont{
+.main_cont {
     width: 90%;
     position: relative;
 }
@@ -130,28 +130,129 @@
 
 
 /* 메뉴 svg *****************************/
-.menusvg {
-    position: absolute;
-    right: 0;
+.menubtn {
+    position: fixed;
     top: 0;
-    width: 9vw;
-    border-radius: 50%;
-/*    padding: 15px;*/
+    right: 8px;
 }
 
-.menusvg text {
-/*
-    font-size: 3.6rem;
-    letter-spacing: 0.2em;
-*/
-    font-size: 42px;
+#menusvg {
+    width: 16vmin;
+    height: 16vmin;
+}
+
+#menusvg path {
+    fill: none;
+}
+
+#menusvg text {
     font-family: 'Secular One', sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 23px;
     fill: #333;
+    font-size: 6vmin;
+    text-transform: uppercase;
+    letter-spacing: 17px;
+    transform-origin: 50% 50%;
 }
 
-.svgtext{
-    letter-spacing: 45px;
+.text_circle_svg {
+    animation: circle_svg 15s linear infinite;
 }
+
+@keyframes circle_svg {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/*1400px일때 나타나는 메뉴 버튼(오른쪽 사이드메뉴)*/
+.menubtn2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    right: 22px;
+    top: 20px;
+    width: 22px;
+    display: none;
+}
+.menubtn2 img{
+    width: 100%;
+}
+
+/*1024px에서 한페이지씩 보일때 - next 버튼*/
+.nextBtn {
+    position: absolute;
+    border: none;
+    background: none;
+    color: #333;
+    font-family: 'Rock Salt', cursive;
+    font-size: 25px;
+    right: 6%;
+    bottom: 3%;
+    display: none;
+    cursor: pointer;
+}
+/*prev 버튼*/
+.nextBtn.prevBtn{
+    left: 6%;
+/*    display: none;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menu {
+    position: fixed;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: block;
+    width: 30px;
+    height: 28px;
+    z-index: 2;
+    transition: all .4s ease-out;
+    display: none;
+}
+.menu span {
+    position: absolute;
+    display: inline-block;
+    height: 2px;
+    background: #333;
+    transition: all .4s ease-out;
+}
+.menu span:nth-child(1) {
+    top: 0;
+    right: 0;
+    width: 20px;
+}
+.menu:hover span:nth-child(1) {
+    width: 27px;
+}
+.menu span:nth-child(2) {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 35px;
+}
+.menu:hover span:nth-child(2) {
+    width: 20px;
+}
+.menu span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 27px;
+}
+.menu:hover span:nth-child(3) {
+    width: 35px;
+}
+
+
