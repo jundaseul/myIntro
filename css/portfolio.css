@@ -34,7 +34,7 @@
     border-radius: 50%;
     background-color: #E6CA88;
     margin-left: 36px;
-    margin-top: -5px;
+    margin-top: -13px;
 
 }
 
@@ -47,6 +47,7 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
     /*글씨 세로 타이핑*/
+    font-family: 'Roboto Mono', monospace;
     font-size: 2.1vmin;
     font-weight: 400;
     letter-spacing: 11px;
@@ -56,35 +57,36 @@
 /*포트폴리오 내용*/
 .pofol_info {
     position: relative;
-    width: 32.5vmin;
+    left: 12vmin;
+    top: 15vmin;
+    width: 37vmin;
     color: #4A473C;
-    font-size: 2vmin;
+    font-size: 2.3vmin;
     font-weight: 900;
     text-align: right;
-    margin: 47% 0 0 7%;
 }
 
 
 .pofol_tit {
     font-family: 'Secular One', sans-serif;
-    font-size: 3.8vmin;
+    font-size: 5vmin;
     padding-bottom: 5px;
 }
 
 .pofol_info p {
-    line-height: 25px;
+    line-height: 3.2vmin;
     font-weight: bold;
 }
 
 .pofol_info small {
-    font-size: 1.7vmin;
+    font-size: 2vmin;
 }
 
 
 /*다이아몬드 모양*/
 .pofol_icon {
     position: absolute;
-    top: 2.4vmin;
+    top: 3.3vmin;
     right: -2.9vmin;
     width: 0.8vmin;
     height: 0.8vmin;
@@ -93,40 +95,100 @@
 }
 
 /*사이트뷰 버튼*/
-.siteBtn {
-    width: 12.5vmin;
+.viewBtn {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 13vmin;
     height: 4.6vmin;
+    line-height: 4.6vmin;
+    margin: 1rem 0 1rem auto;
     border: 1px solid #4A473C;
-    background: none;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 2.5vmin;
-    cursor: pointer;
+    font-size: 1.47vmin;
+    text-align: center;
+    font-weight: 500;
+    color: #4A473C;
 }
+
+.viewBtn span{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 3;
+}
+
+.viewBtn:before,
+.viewBtn:after {
+    transition: 0.5s ease-in-out;
+}
+
+.viewBtn:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -50px;
+    bottom: 0;
+    left: 0;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid #4A473C;
+    transform: translateX(-100%);
+    z-index: 2;
+}
+
+.viewBtn:hover {
+    color: #fff;
+}
+
+.viewBtn:hover:after {
+    transform: translateX(0);
+}
+
+/*아이패드 - viewBtn*/
+.viewBtn.media{
+    position: absolute;
+    width: 20vmin;
+    height: 6vmin;
+    line-height: 6vmin;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    font-size: 2.3vmin;
+    display: none;
+}
+.viewBtn.media span{
+    color: #fff;
+}
+
+
+
 
 /*포폴 동영상*/
 .pofol_1 {
     position: absolute;
-    width: 51vmin;
-    height: 30vmin;
-    bottom: 15%;
-    left: 20%;
+    width: 58vmin;
+    height: 35vmin;
+    bottom: 13vmin;
+    left: 12vmin;
     z-index: 999;
 }
 
 
-
 /*오른쪽 페이지*/
 .book_right {
+    display: flex;
     position: relative;
 }
 
+
 /*포폴 페이지사진*/
 .pofol_img {
-    position: absolute;
+    position: relative;
     top: 11vmin;
-    right: 12vmin;
-    width: 72vmin;
-    height: 40vmin;
+    right: 10vmin;
+    width: 75vmin;
+    height: 47vmin;
     background: url(../images/pofoli_1.jpg) no-repeat center/cover;
 }
 
@@ -134,17 +196,29 @@
 .pofol_img::before {
     content: '';
     display: block;
-    width: 7.6vmin;
+    width: 13vmin;
     height: 1px;
     background-color: #333;
-    margin-left: -7.6vmin;
-    margin-top: 7vmin;
+    position: absolute;
+    top: 7.6vmin;
+    right: 100%;
 }
 
-
+/*반투명박스*/
+.pofol_img::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
 
 /*오른쪽 사이드 목차*/
 .sideCont.right {
+    position: relative;
     margin-left: auto;
     border-left: 1px solid #333;
     border-right: none;
@@ -161,8 +235,8 @@
 /*포폴 컨셉, 내용*/
 .pofol_about {
     position: absolute;
-    left: 5vmin;
-    bottom: 10.5vmin;
+    left: 10vmin;
+    bottom: 14vmin;
     text-align: inherit;
     vertical-align: top;
 
@@ -182,13 +256,28 @@
     width: 140px;
     font-family: 'Rock Salt', cursive;
     color: #9E6853;
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 600;
+    font-size: 2.3vmin;
+    line-height: 2.3vmin;
 }
 
 .poabout_cont {
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 1.85vmin;
+    line-height: 3.3vmin;
     font-weight: bold;
+}
+
+
+
+/*포트폴리오 2번 페이지 *****************************************/
+
+/*레인디어 사이트 이미지 변경*/
+.pofol_img.rein_img {
+    background: url(../images/pofoli_2.jpg) no-repeat center/cover;
+}
+
+/*반응형 웹 글씨*/
+.pofol_tit > small {
+    display: block;
+    font-size: 4vmin;
+    margin-top: -18px;
 }

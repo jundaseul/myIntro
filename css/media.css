@@ -6,6 +6,10 @@
     /*공통사항 ************************************/
 
     /*about 페이지 ********************************/
+    .about_list {
+        padding: 5vmin 6.5vmin;
+    }
+
     .btn1 {
         top: 10%;
     }
@@ -34,7 +38,7 @@
     }
 
     .pofol_info {
-        left: 8vmin;
+        left: 4vmin;
     }
 
 }
@@ -69,6 +73,7 @@
         bottom: 13vmin;
     }
 
+
 }
 
 
@@ -100,7 +105,7 @@
     /*portfolio 페이지 ********************************/
     .pofol_img::before {
         width: 10vmin;
-        top: 7.7vmin;
+        top: 7.6vmin;
     }
 
     .pofol_1 {
@@ -122,11 +127,11 @@
     /*portfolio 페이지 ********************************/
     .pofol_img {
         right: 12vmin;
-        width: 80vmin;
+        width: 75vmin;
     }
 
     .pofol_img::before {
-        width: 15vmin;
+        width: 8vmin;
     }
 
     .pofol_1 {
@@ -140,9 +145,8 @@
 
 }
 
-
-/*1400px*/
-@media only screen and (max-width:1400px) {
+/*1450px*/
+@media only screen and (max-width:1450px) {
     /*공통사항 **************************************/
 
     /*전체 책 박스(속박스)*/
@@ -161,12 +165,19 @@
     }
 
     /*portfolio 페이지 ********************************/
-    .pofol_img {
-        width: 76vmin;
+    .pofol_img::before {
+        width: 10vmin;
     }
 
-    .pofol_img::before {
-        width: 16vmin;
+}
+
+/*1400px*/
+@media only screen and (max-width:1400px) {
+    /*공통사항 **************************************/
+
+    /*portfolio 페이지 ********************************/
+    .pofol_img {
+        width: 76vmin;
     }
 
     .pofol_1 {
@@ -175,6 +186,23 @@
     }
 }
 
+
+/*1330px*/
+@media only screen and (max-width:1330px) {
+
+    /*portfolio 페이지 ********************************/
+    .pofol_img {
+        width: 72vmin;
+    }
+
+    .pofol_img::before {
+        width: 8vmin;
+    }
+
+    .pofol_info {
+        left: 2vmin;
+    }
+}
 
 /*1310px*/
 @media only screen and (max-width:1310px) {
@@ -195,13 +223,6 @@
     }
 
     /*portfolio 페이지 ********************************/
-    .pofol_img {
-        width: 75vmin;
-    }
-
-    .pofol_img::before {
-        width: 9vmin;
-    }
 
     .pofol_1 {
         width: 53vmin;
@@ -234,6 +255,7 @@
     .quotes {
         width: 7.5vmin;
     }
+
 }
 
 
@@ -257,13 +279,13 @@
 
     /*portfolio 페이지 ********************************/
     .pofol_img {
-        width: 70vmin;
-        height: 45vmin;
+        width: 64vmin;
+        height: 44vmin;
         right: 8vmin;
     }
 
     .pofol_img::before {
-        width: 11vmin;
+        width: 7vmin;
     }
 
     .pofol_about {
@@ -272,8 +294,9 @@
     }
 
     .pofol_1 {
-        left: 8vmin;
-        bottom: 13vmin;
+        width: 50vmin;
+        left: 5vmin;
+        bottom: 17vmin;
     }
 
 }
@@ -289,18 +312,35 @@
 
     /*portfolio 페이지 ********************************/
     .pofol_img {
-        height: 43vmin;
+        height: 38vmin;
+        right: 10vmin;
     }
 
     .pofol_img::before {
-        width: 8vmin;
+        display: none;
     }
 
     .pofol_1 {
-        width: 51vmin;
-        left: 6vmin;
-        bottom: 18vmin;
+        width: 49vmin;
+        left: 4vmin;
+        bottom: 21vmin;
     }
+
+    .pofol_about {
+        left: 3vmin;
+        bottom: 17vmin;
+    }
+
+    .poabout_cont {
+        font-size: 1.9vmin;
+    }
+
+    .poabout_tit {
+        width: 120px;
+        font-size: 2vmin;
+        line-height: 3.3vmin;
+    }
+
 }
 
 
@@ -331,13 +371,16 @@
     }
 
     /*portfolio 페이지 ********************************/
-    .pofol_img {
-        width: 66vmin;
-        height: 40vmin;
+    .pofol_1 {
+        width: 48vmin;
+        left: 3vmin;
+        bottom: 18vmin;
     }
 
-    .pofol_img::before {
-        width: 9vmin;
+    .pofol_img {
+        width: 62vmin;
+        height: 35vmin;
+        right: 9vmin;
     }
 
     .pofol_info {
@@ -361,6 +404,22 @@
 /*1080px*/
 @media only screen and (max-width:1080px) {
 
+    /*공통사항 ************************************/
+    .sideCont {
+        width: 6.5vmin;
+    }
+
+    .sidePaging {
+        font-size: 3.2vmin;
+    }
+
+    .sideCircle {
+        width: 2.7vmin;
+        height: 2.7vmin;
+        margin-left: 28px;
+        margin-top: 8px;
+    }
+
     /*about 페이지 ********************************/
     .introText {
         left: 4vmin;
@@ -375,21 +434,38 @@
 
     /*portfolio 페이지 ********************************/
     .pofol_img {
-        width: 62vmin;
-    }
-
-    .pofol_img::before {
-        width: 6.5vmin;
-    }
-
-    .pofol_1 {
-        width: 47vmin;
-        left: 5vmin;
-        bottom: 18vmin;
+        width: 59vmin;
+        height: 34vmin;
+        right: 10vmin;
     }
 
     .pofol_info {
-        left: 0;
+        width: 36vmin;
+        left: -2vmin;
+        font-size: 2vmin;
+    }
+
+    .pofol_info small.pofol_tag {
+        font-size: 1.8vmin;
+    }
+
+    .pofol_1 {
+        width: 43vmin;
+        left: 4vmin;
+        bottom: 18vmin;
+    }
+
+    .pofol_about {
+        left: 2.5vmin;
+    }
+
+    .poabout_tit {
+        width: 115px;
+        font-size: 2vmin;
+    }
+
+    .poabout_cont {
+        font-size: 1.8vmin;
     }
 
 }
@@ -545,7 +621,7 @@
     .btn1 {
         width: 27vmin;
         height: 27vmin;
-        left: 52%;
+        left: 51%;
         top: 0;
         font-size: 6.8vmin;
         line-height: 21vmin;
@@ -616,13 +692,21 @@
     }
 
     .pofol_info p {
-        line-height: 5vmin;
-        font-size: 3.7vmin;
+        line-height: 4.5vmin;
+        font-size: 4vmin;
+        padding-left: 5%;
+        padding-top: 2%
     }
 
     .pofol_info small {
+        font-size: 5.5vmin;
+        margin-top: -35px;
+    }
+
+    .pofol_info small.pofol_tag {
         font-size: 3.3vmin;
     }
+
 
     .pofol_tit {
         font-size: 8vmin;
@@ -680,6 +764,12 @@
     /*site view 버튼*/
     .viewBtn.media {
         display: block;
+        z-index: 9999;
+    }
+
+    /*이미지 반투명박스*/
+    .pofol_img::after {
+        display: block;
     }
 
 }
@@ -731,7 +821,7 @@
 }
 
 
-/*375px - 아이폰6/7/8*/
+/*480px - 아이폰6/7/8*/
 @media only screen and (max-width:480px) {
 
     /*공통사항 ************************************/
@@ -772,10 +862,16 @@
     }
 
 
+    .nextBtn {
+        font-size: 20px;
+        bottom: 3%;
+        right: 7%;
+    }
+
 
     /*전체 책 **************/
     .menubtn2 {
-        top: 20px;
+        top: 25px;
         width: 22px;
     }
 
@@ -786,7 +882,7 @@
     }
 
     .sideContxt {
-        font-size: 5vmin;
+        font-size: 4.8vmin;
         letter-spacing: 5px;
     }
 
@@ -812,10 +908,6 @@
         left: 5vmin;
         bottom: 19vmin;
         line-height: 5.5vmin;
-    }
-
-    .nextBtn {
-        font-size: 18px;
     }
 
     .quotes {
@@ -907,5 +999,72 @@
         font-size: 8vmin;
         line-height: 25vmin;
     }
+
+    /*portfolio 페이지 ********************************/
+    .pofol_icon {
+        top: 6vmin;
+        width: 2vmin;
+        height: 2vmin;
+    }
+
+    .pofol_tit {
+        font-size: 10.5vmin;
+    }
+
+    .pofol_info p {
+        font-size: 4.9vmin;
+        line-height: 6.8vmin;
+        padding-top: 0;
+    }
+
+    .pofol_info small.pofol_tag {
+        font-size: 4.5vmin;
+    }
+
+    .pofol_info {
+        top: 20vmin;
+        left: 5%;
+    }
+
+    .pofol_img {
+        height: 50vmin;
+        top: 20vmin;
+    }
+
+    /*설명부분 flex해제*/
+    .poabout_top,
+    .pofol_bottom {
+        display: block;
+    }
+
+    .pofol_about {
+        left: 4.5vmin;
+        bottom: 28vmin;
+    }
+
+    .poabout_tit {
+        font-size: 5vmin;
+        padding-bottom: 10px;
+    }
+
+    .poabout_cont {
+        font-size: 4.1vmin;
+        line-height: 7.5vmin;
+        padding: 0 10px;
+    }
+
+    .viewBtn.media {
+        width: 32vmin;
+        height: 10vmin;
+        line-height: 10vmin;
+        top: 42%;
+        font-size: 3.8vmin;
+    }
+
+    .pofol_info small {
+        font-size: 8.8vmin;
+        margin-top: -19px;
+    }
+
 
 }

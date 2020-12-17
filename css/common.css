@@ -176,7 +176,8 @@
     width: 22px;
     display: none;
 }
-.menubtn2 img{
+
+.menubtn2 img {
     width: 100%;
 }
 
@@ -193,22 +194,12 @@
     display: none;
     cursor: pointer;
 }
+
 /*prev 버튼*/
-.nextBtn.prevBtn{
-    left: 6%;
-/*    display: none;*/
+.nextBtn.prevBtn {
+    /*    left: 6%;*/
+    /*    display: none;*/
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .menu {
     position: fixed;
@@ -222,6 +213,7 @@
     transition: all .4s ease-out;
     display: none;
 }
+
 .menu span {
     position: absolute;
     display: inline-block;
@@ -229,30 +221,49 @@
     background: #333;
     transition: all .4s ease-out;
 }
+
 .menu span:nth-child(1) {
     top: 0;
     right: 0;
     width: 20px;
 }
+
 .menu:hover span:nth-child(1) {
     width: 27px;
 }
+
 .menu span:nth-child(2) {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
     width: 35px;
 }
+
 .menu:hover span:nth-child(2) {
     width: 20px;
 }
+
 .menu span:nth-child(3) {
     bottom: 0;
     right: 0;
     width: 27px;
 }
+
 .menu:hover span:nth-child(3) {
     width: 35px;
 }
 
 
+
+
+/*마우스 커서*/
+/*마우스 포인터 이미지*/
+#myc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 13vmin;
+    z-index: 99999;
+    /*포인터는 가장위!*/
+    display: none;
+}
