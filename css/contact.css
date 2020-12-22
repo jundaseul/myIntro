@@ -23,7 +23,7 @@
     line-height: 4.8vmin;
     font-size: 2.3vmin;
     font-family: 'Rock Salt', cursive;
-    padding: 8vmin 6vmin 0 0;
+    padding: 5vmin 6vmin 0 0;
     text-transform: uppercase;
 }
 
@@ -39,9 +39,8 @@
 .favoList {
     position: relative;
     width: 90%;
-    margin: 0 auto;
+    margin: 3vmin auto;
     border-top: 1px solid #333;
-    margin: 3.2vmin auto;
 
 }
 
@@ -111,7 +110,7 @@
     width: 80%;
     position: absolute;
     left: 50%;
-    bottom: 7%;
+    bottom: 10.5%;
     transform: translateX(-50%);
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
