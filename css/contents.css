@@ -83,3 +83,7 @@
 
 
 
+/*목차부분 next버튼 색상 변경*/
+.nextBtn.contBtn{
+    color: #fff;
+}

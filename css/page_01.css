@@ -156,8 +156,15 @@ body {
 
 
 /*오른쪽박스 글*/
-/*
-.right_txt {
+
+/*1400px부터 나타나는 메뉴버튼*/
+.menubtn2.page_1 {
+    left: auto;
+    transform: translateX(0);
+}
+
+/*타이핑 효과****************/
+.typeTxt, .typeTxt2{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -168,57 +175,12 @@ body {
     letter-spacing: 1.2px;
     line-height: 3.5vmin;
 }
-*/
 
 
 
-/*page_08 ******************************************/
-.book_01_left.page_8 {
+/*page_08 *****************************************/
+.book_01_left.page_8{
     margin-left: auto;
 }
 
 
-
-
-
-/*타이핑 효과****************/
-.typing-txt {
-    display: none;
-}
-
-.typing ul{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 2.5vmin;
-    font-weight: 800;
-    letter-spacing: 1.2px;
-    line-height: 3.5vmin;
-}
-
-.typing ul li {
-    display: block;
-}
-
-.typing ul li.on {
-    display: inline-block;
-    animation-name: cursor;
-    animation-duration: 0.3s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes cursor {
-    0% {
-        border-right: 1px solid #fff
-    }
-
-    50% {
-        border-right: 1px solid #000
-    }
-
-    100% {
-        border-right: 1px solid #fff
-    }
-}

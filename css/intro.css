@@ -19,7 +19,11 @@
     background: url(../images/cover_bg.jpg) no-repeat center/cover;
     box-shadow: -13px 13px 40px rgba(0, 0, 0, 0.25);
     font-family: 'S-CoreDream';
-    cursor: none;/*커서없애기*/
+}
+
+.book.intro{
+    cursor: none;
+    /*커서없애기*/
 }
 
 /*왼쪽 그림자*/
@@ -156,7 +160,7 @@
 }
 
 .comment small {
-    font-size: 14px;
+    font-size: 1.5vmin;
     padding-left: 1vmin;
 }
 
@@ -207,4 +211,30 @@
     width: 14vmin;
     bottom: 8vmin;
     right: 6vmin;
+}
+
+
+/*아이패드 프로부터 화살표 나타나게!*/
+.media_clickbtn {
+    position: relative;
+    bottom: -15%;
+    right: -16%;
+    display: none;
+}
+
+#intro_arrow {
+    position: absolute;
+    width: 8vw;
+    bottom: -18%;
+    right: 32%;
+    transform: rotate(-90deg) rotate(228deg);
+}
+
+.intro_clickbtn {
+    position: absolute;
+    bottom: -20%;
+    right: 2%;
+    font-family: 'Rock Salt', cursive;
+    font-size: 4vmin;
+    color: #4e4743;
 }

@@ -184,6 +184,12 @@
         bottom: 13vmin;
         left: 9vmin;
     }
+
+    /*공동 포폴 페이지 ********************************/
+    .main_cont.porj_wrap {
+        width: 63vw;
+        margin-left: -21vw;
+    }
 }
 
 
@@ -257,7 +263,6 @@
     }
 
 }
-
 
 /*1240px*/
 @media only screen and (max-width:1240px) {
@@ -420,6 +425,17 @@
         margin-top: 8px;
     }
 
+    .menubtn2 {
+        right: 1.4%;
+        width: 2vw;
+    }
+
+    /*page_1 페이지 ********************************/
+    .book_01_left {
+        width: 55%;
+        padding: 7.5vmin 3vmin;
+    }
+
     /*about 페이지 ********************************/
     .introText {
         left: 4vmin;
@@ -468,6 +484,39 @@
         font-size: 1.8vmin;
     }
 
+    /*contact 페이지 ************************************/
+
+    .favolist_img {
+        width: 15vmin;
+        height: 15vmin;
+        margin-right: 2vmin;
+        margin-top: 1vmin;
+    }
+
+    .favoList li b {
+        font-size: 1.8vmin;
+        letter-spacing: 0.1px;
+        line-height: 4.6vmin;
+    }
+
+    .favoList li p {
+        font-size: 1.6vmin;
+    }
+
+    /*공동 포폴 페이지 ************************************/
+    .main_cont.porj_wrap {
+        width: 64vw;
+        margin-left: -22vw;
+    }
+
+    .pofol3_info {
+        left: 11vmin;
+        top: 11vmin;
+    }
+
+    .proj {
+        height: 17vmin;
+    }
 }
 
 /*1024px - 아이패드pro */
@@ -560,11 +609,195 @@
 
     /*메뉴버튼*/
     .menubtn2 {
-        top: 40px;
-        width: 40px;
+        top: 3%;
+        width: 4vw;
+        right: 2.8%;
     }
 
 
+    /*인트로 페이지 ********************************/
+    .book {
+        width: 66vmin;
+        height: 89vmin;
+    }
+
+    .line_box {
+        width: 48vmin;
+        height: 50vmin;
+    }
+
+    .tit {
+        font-size: 4.5vmin;
+    }
+
+    .tit1 {
+        top: -9.5vmin;
+    }
+
+    .tit1::before {
+        left: -0.4vmin;
+        top: 9vmin;
+    }
+
+    .tit2 {
+        bottom: -13vmin;
+    }
+
+    .tit2::before {
+        left: -0.4vmin;
+    }
+
+    .year {
+        font-size: 2vmin;
+    }
+
+    .name {
+        font-size: 1.9vmin;
+        letter-spacing: 0.8px;
+    }
+
+    .circle {
+        right: 3.7vmin;
+        top: 13vmin;
+    }
+
+    /*화살표, 인트로 넣기*/
+    .media_clickbtn {
+        display: block;
+    }
+
+    #myc {
+        width: 20vmin;
+    }
+
+
+    /*last 페이지 ***********************************/
+    .diagonal {
+        width: 57vmin;
+        left: 4vmin;
+    }
+
+    .diagonal.diag2 {
+        top: 60vmin;
+    }
+
+    .comment {
+        top: 20vmin;
+        left: 5vmin;
+        font-size: 2vmin;
+        line-height: 3.4vmin;
+    }
+
+    .comment small {
+        font-size: 1.8vmin;
+    }
+
+    .circle.lastCircle {
+        width: 12vmin;
+        height: 12vmin;
+        top: 12vmin;
+        right: 10vmin;
+    }
+
+    .barcode {
+        width: 15vmin;
+    }
+
+    .copyright {
+        font-size: 1.65vmin;
+    }
+
+    /*page_1 페이지 ********************************/
+    .book_01_left {
+        width: 54%;
+        padding: 7.5vmin 4vmin;
+    }
+
+    .writter {
+        font-size: 4.1vmin;
+        height: 34vmin;
+    }
+
+    .book_01_left p {
+        line-height: 4.5vmin;
+        font-size: 2.6vmin;
+    }
+
+    .typeTxt {
+        font-size: 4vmin;
+        line-height: 5.5vmin;
+    }
+
+    /*contents 페이지 ********************************/
+    .content_tit {
+        font-size: 10vmin;
+    }
+
+    .content_tit::after {
+        height: 30%;
+        top: 42%;
+    }
+
+    .content_tit2 {
+        font-size: 7.8vmin;
+    }
+
+    /*목차 오른쪽*/
+    /*첫번째 목차*/
+    .contents_txt {
+        top: 6vmin;
+        right: auto;
+        left: 10vmin;
+    }
+
+    .contxt_num {
+        font-size: 6vmin;
+    }
+
+    .contxt_icon img {
+        width: 33%;
+    }
+
+    .contxt_link {
+        font-size: 5vmin;
+    }
+
+    .contxt_link::after {
+        height: 35vmin;
+    }
+
+    .contxt_paging {
+        font-size: 2.5vmin;
+        padding-top: 38vmin;
+    }
+
+    /*두번째 목차*/
+    .contents_txt_2 {
+        right: auto;
+        left: 22vmin;
+    }
+
+    /*세번째 목차*/
+    .contents_txt_3 {
+        right: auto;
+        left: 34vmin;
+    }
+
+    .contents_txt_2 .contxt_link::after {
+        height: 13.5vmin;
+    }
+
+    .contents_txt_2 .contxt_paging {
+        padding-top: 16.8vmin;
+    }
+
+    .contents_txt_3 .contxt_link::after {
+        height: 24vmin;
+    }
+
+    .contents_txt_3 .contxt_paging {
+        padding-top: 27.4vmin;
+    }
 
     /*about 페이지 ********************************/
     .profile {
@@ -676,6 +909,11 @@
 
 
     /*portfolio 페이지 ********************************/
+    .prot_nextBtn{
+        display: none;
+    }
+    
+    
     .pofol_1 {
         width: 82vmin;
         height: 50vmin;
@@ -772,6 +1010,190 @@
         display: block;
     }
 
+
+    /*공동 포폴 페이지 ********************/
+    /*왼쪽 페이지*/
+    .pofol3_info {
+        left: 8%;
+        top: 16.3vmin;
+    }
+
+    .pofol3_info .pofol_tit,
+    .pofol3_info p {
+        display: block;
+        padding-left: 5%;
+        letter-spacing: 1px;
+        vertical-align: top;
+        writing-mode: initial;
+        text-orientation: initial;
+    }
+
+    .pofol3_info .pofol_tit {
+        font-size: 8vmin;
+    }
+
+    .pofol_tit .pofol_icon {
+        display: block;
+        top: 2vmin;
+    }
+
+    .pofol3_info p {
+        line-height: 4.5vmin;
+        font-size: 4vmin;
+        padding-top: 3%;
+    }
+
+    .proj .marquee p {
+        font-size: 3vmin;
+    }
+
+
+    /*미디어쿼리시 왼쪽페이지 포폴리스트!*/
+    .proj_list.media {
+        width: 92%;
+    }
+
+    .proj_list.media,
+    .proj_list.media .proj_media_left {
+        display: block;
+    }
+
+    .proj_list.media .proj_media_right {
+        display: none;
+    }
+
+
+
+    /*오른쪽 페이지*/
+    .main_cont.porj_wrap {
+        width: 91%;
+        margin-left: auto;
+        margin: 4vmin;
+    }
+
+    .main_cont.porj_wrap .nextBtn.prevBtn {
+        right: 5px;
+        bottom: -5%;
+    }
+
+    .proj {
+        position: relative;
+        height: 31vmin;
+    }
+
+    .proj_media_left {
+        display: none;
+    }
+
+    .proj.proj_3 {
+        border-top: 1px solid #333;
+    }
+
+    .proj .proj_num {
+        width: 15%;
+        font-size: 5.5vmin;
+        font-weight: 500;
+        position: absolute;
+        top: -11%;
+        left: -2%;
+        z-index: 9;
+    }
+
+    .proj .proj_img {
+        width: 40%;
+        height: 70%;
+        margin-left: 6%;
+    }
+
+    .proj .proj_info {
+        padding-left: 4%;
+        white-space: normal;
+    }
+
+    .proj .porj_tit {
+        font-size: 4vmin;
+    }
+
+    .proj .proj_info p {
+        font-size: 2.8vmin;
+    }
+
+    /*contact 페이지 ************************************/
+
+    .favoList {
+        margin: 5vmin auto;
+    }
+
+    .cont_left h2 {
+        padding-top: 13.5vmin;
+        line-height: 5.8vmin;
+        font-size: 3.3vmin;
+    }
+
+    .cont_left small {
+        font-size: 2.8vmin;
+        padding-top: 1.5vmin;
+    }
+
+    .favoList li {
+        height: 27vmin;
+    }
+
+    .favolist_img {
+        width: 20vmin;
+        height: 20vmin;
+        margin-right: 2vmin;
+        margin-top: 1.2vmin;
+    }
+
+    .favoList li p {
+        font-size: 2.5vmin;
+    }
+
+    .favoList li b {
+        font-size: 2.8vmin;
+        letter-spacing: 1.8px;
+        padding: 2vmin 0 1vmin 0;
+    }
+
+    /*오른쪽페이지*/
+    .contactBtn {
+        bottom: 11%;
+        width: 90%;
+    }
+
+    .contactBtn > div {
+        height: 75px;
+        line-height: 75px;
+    }
+
+    .contactBtn > div > a {
+        font-size: 3vmin;
+    }
+
+    .cta-arrow {
+        padding: 36px 0;
+    }
+
+    .marquee p {
+        font-size: 2.7vmin;
+    }
+
+    .contact_info {
+        left: 9%;
+    }
+
+    .contact_info li {
+        font-size: 3vmin;
+        line-height: 8vmin;
+    }
+
+    .contact_info h5 {
+        width: 21vmin;
+        font-size: 2.8vmin;
+        line-height: 8vmin;
+    }
+
 }
 
 /*768px - 아이패드*/
@@ -789,6 +1211,92 @@
     .menu_box .gnb > li > a {
         font-size: 75px;
     }
+
+    .menubtn2 {
+        top: 4%;
+        width: 5vw;
+        right: 2.3%;
+    }
+
+
+    /*인트로 페이지 ********************************/
+    .book {
+        width: 75vmin;
+        height: 98vmin;
+    }
+
+    .book::before {
+        width: 2vmin;
+        margin-left: 2vmin;
+    }
+
+    .line_box {
+        width: 54vmin;
+        height: 55vmin;
+    }
+
+    .tit {
+        font-size: 5.3vmin;
+    }
+
+    .tit1 {
+        top: -10.5vmin;
+    }
+
+    .tit1::before {
+        left: -0.2vmin;
+        width: 12vmin;
+    }
+
+    .tit2 {
+        bottom: -15vmin;
+    }
+
+    .tit2::before {
+        width: 12vmin;
+        top: 14vmin;
+        left: 0;
+    }
+
+    .media_clickbtn {
+        bottom: -13%;
+        right: -13%;
+    }
+
+    .circle {
+        width: 12.5vmin;
+        height: 12.5vmin;
+    }
+
+    .year {
+        font-size: 2.5vmin;
+    }
+
+    .name {
+        font-size: 2.2vmin;
+    }
+
+    /*page_1 페이지 ********************************/
+    .book_01_left {
+        width: 53%;
+        padding: 7.5vmin 5vmin;
+    }
+
+    .writter {
+        font-size: 5vmin;
+        height: 38vmin;
+    }
+
+    .book_01_left p {
+        line-height: 6vmin;
+        font-size: 3vmin;
+    }
+
+    .typeTxt {
+        font-size: 4.8vmin;
+        line-height: 7.5vmin;
+    }
+
 
     /*portfolio 페이지 ********************************/
     .poabout_tit {
@@ -818,10 +1326,130 @@
     .pofol_info small {
         font-size: 3.8vmin;
     }
+
+    /*공동 포폴 페이지 ************************************/
+    .proj {
+        height: 34vmin;
+    }
+
+    .proj .proj_info {
+        padding-left: 3%;
+    }
+
+    .proj .proj_num {
+        font-size: 6vmin;
+        top: -16%;
+    }
+
+    .proj .proj_img {
+        width: 42%;
+        height: 72%;
+    }
+
+    .proj .porj_tit {
+        font-size: 4.5vmin;
+    }
+
+    .proj .proj_info p {
+        font-size: 3vmin;
+    }
+
+    /*contents 페이지 ********************************/
+    .contxt_num {
+        font-size: 8vmin;
+    }
+
+    .contxt_icon img {
+        width: 38%;
+    }
+
+    .contxt_link {
+        font-size: 6vmin;
+    }
+
+    .contxt_paging {
+        font-size: 3vmin;
+    }
+
+    .contents_txt_2 .contxt_paging {
+        padding-top: 13vmin;
+    }
+
+    .contents_txt_2 .contxt_link::after {
+        height: 10vmin;
+    }
+
+    .contents_txt_3 .contxt_paging {
+        padding-top: 25.5vmin;
+    }
+
+    .contents_txt_3 .contxt_link::after {
+        height: 23vmin;
+    }
+
+    .contents_txt_2 {
+        left: 24vmin;
+    }
+
+    .contents_txt_3 {
+        left: 38vmin;
+    }
+
+    /*contact 페이지 ************************************/
+    .cont_left small {
+        font-size: 3vmin;
+    }
+
+    .favoList {
+        width: 93%;
+        margin: 3vmin auto;
+    }
+
+    .favoList li {
+        padding: 2vmin;
+    }
+
+    .favolist_img {
+        margin-top: 1.5vmin;
+    }
+
+    .favoList li b {
+        font-size: 3vmin;
+        letter-spacing: 1.5px;
+    }
+
+    .favoList li p {
+        font-size: 2.8vmin;
+    }
+
+    /*오른쪽 페이지*/
+    .contact_info {
+        bottom: 28%;
+    }
+
+    .contact_info h5 {
+        width: 24vmin;
+        font-size: 3.5vmin;
+        line-height: 10vmin;
+    }
+
+    .contact_info li {
+        font-size: 3.5vmin;
+        line-height: 10vmin;
+    }
+
+    .contactBtn > div > a {
+        font-size: 4vmin;
+    }
+
+    .marquee p {
+        font-size: 3.5vmin;
+    }
+
 }
 
 
-/*480px - 아이폰6/7/8*/
+/*480px - 아이폰6/7/8 plus정도*/
 @media only screen and (max-width:480px) {
 
     /*공통사항 ************************************/
@@ -871,10 +1499,199 @@
 
     /*전체 책 **************/
     .menubtn2 {
-        top: 25px;
-        width: 22px;
+        width: 6vw;
+        right: 3%;
     }
 
+    /*인트로 페이지 ********************************/
+    .book {
+        width: 86vmin;
+        height: 110vmin;
+    }
+
+    .line_box {
+        width: 62vmin;
+        height: 63vmin;
+    }
+
+    .tit {
+        font-size: 6vmin;
+    }
+
+    .tit1 {
+        left: 5vmin;
+        top: -11.5vmin;
+    }
+
+    .tit1::before {
+        width: 14vmin;
+        top: 10vmin;
+        left: 3.8vmin;
+    }
+
+    .tit2 {
+        right: 6vmin;
+        bottom: -17vmin;
+    }
+
+    .tit2::before {
+        width: 14vmin;
+        top: 15vmin;
+        left: 4vmin;
+    }
+
+    .year {
+        right: -6px;
+        font-size: 2.8vmin;
+    }
+
+    .circle {
+        width: 13vmin;
+        height: 13vmin;
+        right: 6vmin;
+        top: 16vmin;
+    }
+
+    .name {
+        bottom: 3vmin;
+        font-size: 2.6vmin;
+    }
+
+    .media_clickbtn {
+        bottom: -12%;
+        left: -45%;
+    }
+
+    .intro_clickbtn {
+        right: 3%;
+        font-size: 5vmin;
+    }
+
+    #myc {
+        width: 25vmin;
+    }
+
+    /*마지막 페이지 **********************************/
+    .diagonal {
+        width: 74vmin;
+        left: 5vmin;
+    }
+
+    .diagonal.diag2 {
+        top: 73vmin;
+    }
+
+    .comment {
+        top: 22vmin;
+        font-size: 2.6vmin;
+        line-height: 4.5vmin;
+    }
+
+    .comment small {
+        font-size: 2.5vmin;
+        font-weight: 500;
+    }
+
+    .comt {
+        padding-bottom: 4vmin;
+    }
+
+    .barcode {
+        width: 19vmin;
+        bottom: 4vmin;
+    }
+
+    .copyright {
+        font-size: 2vmin;
+        text-align: left;
+        left: 6%;
+        bottom: 3.5vmin;
+        line-height: 3.5vmin;
+    }
+
+    .circle.lastCircle {
+        width: 15vmin;
+        height: 15vmin;
+        top: 11vmin;
+        right: 13vmin;
+    }
+
+    /*저작권 줄바꿈*/
+    .break {
+        display: block;
+    }
+
+
+    /*contents 페이지 ********************************/
+    .contents_txt li {
+        line-height: 6.4vmin;
+    }
+
+    .book_01_left {
+        width: 55%;
+        padding: 7.5vmin 4.5vmin;
+    }
+
+    .writter {
+        font-size: 6vmin;
+        height: 50vmin;
+    }
+
+    .book_01_left p {
+        line-height: 7vmin;
+        font-size: 3.65vmin;
+    }
+
+    .typeTxt {
+        font-size: 5.5vmin;
+        line-height: 8.5vmin;
+    }
+
+    .contents_txt {
+        top: 13vmin;
+    }
+
+    .contents_txt_2 {
+        left: 27vmin;
+    }
+
+    .contents_txt_3 {
+        left: 44vmin;
+    }
+
+    .contxt_num {
+        font-size: 9vmin;
+        padding-bottom: 5vmin;
+    }
+
+    .contxt_link {
+        font-size: 8vmin;
+    }
+
+    .contxt_link::after {
+        height: 45vmin;
+    }
+
+    .contents_txt_2 .contxt_paging {
+        padding-top: 17vmin;
+    }
+
+    .contxt_paging {
+        font-size: 4vmin;
+        padding-top: 47vmin;
+    }
+
+    .contents_txt_2 .contxt_link::after {
+        height: 15vmin;
+    }
+
+    .contents_txt_3 .contxt_paging {
+        padding-top: 32vmin;
+    }
+
+    .contents_txt_3 .contxt_link::after {
+        height: 30vmin;
+    }
 
     /*about 페이지 ********************************/
     .sideCont {
@@ -1066,5 +1883,164 @@
         margin-top: -19px;
     }
 
+    /*공동 포폴 페이지 ************************************/
+    .pofol3_info {
+        top: 24vmin;
+        left: 5%;
+    }
 
+    .pofol3_info .pofol_tit {
+        font-size: 10.5vmin;
+        line-height: 7.5vmin;
+    }
+
+    .pofol3_info p {
+        font-size: 4.9vmin;
+        line-height: 6.8vmin;
+        padding-top: 4%;
+    }
+
+    .proj {
+        height: 43vmin;
+    }
+
+    .proj .proj_num {
+        top: -33%;
+        left: 1%;
+        font-size: 6.5vmin;
+    }
+
+    .proj .proj_img {
+        width: 47%;
+        height: 60%;
+        margin-left: 4%;
+    }
+
+    .proj .marquee p {
+        font-size: 4.5vmin;
+    }
+
+    .proj .porj_tit {
+        font-size: 4.3vmin;
+    }
+
+    .proj .proj_info {
+        width: 53%;
+    }
+
+    .proj .proj_info p {
+        font-size: 3.8vmin;
+    }
+
+    .proj .porj_tit {
+        font-size: 4.6vmin;
+    }
+
+    .main_cont.porj_wrap .nextBtn.prevBtn {
+        right: 9px;
+        bottom: -5.5%;
+    }
+
+    /*contact 페이지 ********************************/
+    .favoList {
+        margin: 5vmin auto;
+    }
+
+    .cont_left h2 br {
+        display: none;
+    }
+
+    .cont_left h2 {
+        padding-top: 23vmin;
+        font-size: 4vmin;
+    }
+
+    .cont_left small {
+        font-size: 3.8vmin;
+    }
+
+    .favoList li {
+        height: 37vmin;
+        padding: 3vmin;
+    }
+
+    .favolist_img {
+        width: 25vmin;
+        height: 25vmin;
+        margin-top: 3vmin;
+    }
+
+    .favoList li b {
+        font-size: 3.8vmin;
+        letter-spacing: 1px;
+        padding: 4vmin 0 1vmin 0;
+    }
+
+    .favoList li p {
+        font-size: 3.3vmin;
+        line-height: 4.3vmin;
+    }
+
+    /*오른쪽 페이지*/
+    .contact_info {
+        bottom: 31%;
+    }
+
+    .contact_info h5 {
+        width: 28vmin;
+        font-size: 4vmin;
+        line-height: 12vmin;
+    }
+
+    .contact_info li {
+        font-size: 3.8vmin;
+        line-height: 12vmin;
+    }
+
+    .contactBtn {
+        bottom: 14%;
+    }
+
+    .contactBtn > div {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .contactBtn > div > a {
+        font-size: 4.5vmin;
+    }
+
+    .cta-arrow {
+        max-width: 45px;
+        padding: 25px 0;
+    }
+
+    .cta-arrow .line:after,
+    .cta-arrow .line:before {
+        width: 12px;
+    }
+
+    .marquee p {
+        font-size: 4vmin;
+    }
+
+
+}
+
+/*375px - 아이폰6/7/8*/
+@media only screen and (max-width:375px) {
+
+    /*인트로 페이지 ********************************/
+    .book {
+        height: 112vmin;
+    }
+
+    .tit1::before {
+        left: 4.8vmin;
+    }
+
+    .tit2::before {
+        top: 16vmin;
+        left: 5vmin;
+    }
 }
