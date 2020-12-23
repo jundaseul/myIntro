@@ -13,6 +13,54 @@
 
 <body>
     <div id="wrap">
+        <!--메뉴박스-->
+        <div class="menu_box">
+            <nav>
+                <ul class="gnb">
+                    <li>
+                        <a href="contents.html">
+                            <sup>01.</sup>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            <sup>02.</sup>
+                            About
+                        </a>
+                    </li>
+                    <li class="menu_portfolio">
+                        <a href="portfolio_1.html">
+                            <sup>03.</sup>
+                            <P>Portfolio</P>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="portfolio_1.html">-
+                                        <b>stayfolio</b></a>
+                                </li>
+                                <li>
+                                    <a href="portfolio_2.html">-
+                                        <b>reindeer</b></a>
+                                </li>
+                                <li>
+                                    <a href="portfolio_3.html">-
+                                        <b>joint project</b></a>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <sup>04.</sup>
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="cbtn"><img src="images/close_btn_white.png" alt="닫기버튼"></a>
+        </div>
+
+
         <!--책 박스-->
         <div class="book lastbook">
             <h2 class="bld">마지막 책 표지</h2>
@@ -37,6 +85,23 @@
             <div class="diagonal bld diag2">대각선</div>
             <img src="images/barcode_1.png" alt="바코드" class="barcode">
             <p class="copyright">* 이 저작물은 상업적 목적이 아닌<span class="break"></span> 개인 포트폴리오 사이트로 제작되었습니다.</p>
+        </div>
+
+
+        <!--svg-->
+        <div>
+            <a href="#" class="menubtn">
+                <svg id="menusvg" viewBox="0 0 500 500">
+                    <path d="M243.2, 382.4c-74.8,   
+     0-135.5-60.7-135.5-135.5s60.7-135.5,135.5-135.5s135.5, 60.7, 135.5,
+    135.5 S318, 382.4, 243.2, 382.4z" id="textcircle" />
+                    <text class="text_circle_svg">
+                        <textPath href="#textcircle">
+                            Portfolio · Menu ·
+                        </textPath>
+                    </text>
+                </svg>
+            </a>
         </div>
 
     </div>

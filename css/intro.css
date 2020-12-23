@@ -154,7 +154,7 @@
     left: 6vmin;
     color: #fff;
     font-size: 1.63vmin;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 2.8vmin;
     padding-left: 1vmin;
 }
@@ -162,6 +162,7 @@
 .comment small {
     font-size: 1.5vmin;
     padding-left: 1vmin;
+    font-weight: 200;
 }
 
 /*각 문단*/
@@ -201,7 +202,7 @@
     bottom: 2.5vmin;
     color: #fff;
     font-size: 1.2vmin;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
 }
 

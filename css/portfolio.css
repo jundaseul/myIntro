@@ -71,15 +71,18 @@
     font-family: 'Secular One', sans-serif;
     font-size: 5vmin;
     padding-bottom: 5px;
+    opacity: 0;
 }
 
 .pofol_info p {
     line-height: 3.2vmin;
     font-weight: 400;
+    opacity: 0;
 }
 
 .pofol_info small {
     font-size: 2vmin;
+    opacity: 0;
 }
 
 
@@ -92,6 +95,7 @@
     height: 0.8vmin;
     background-color: #333;
     transform: rotate(45deg);
+    opacity: 0;
 }
 
 /*사이트뷰 버튼*/
@@ -109,6 +113,7 @@
     text-align: center;
     font-weight: 500;
     color: #4A473C;
+    opacity: 0;
 }
 
 .viewBtn span {
@@ -194,10 +199,10 @@
 }
 
 /*박스 옆 선*/
-.pofol_img::before {
+.img_line {
     content: '';
     display: block;
-    width: 13vmin;
+    width: 0;
     height: 1px;
     background-color: #333;
     position: absolute;
@@ -323,6 +328,7 @@
     line-height: 3.2vmin;
     font-weight: 400;
     font-size: 2.3vmin;
+    opacity: 0;
 }
 
 /*오른쪽 영역*/

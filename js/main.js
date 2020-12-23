@@ -142,18 +142,49 @@ $(function () { /////// jQB ///////////////////////
     /*공동 프로젝트 ***************************************/
     $(".proj").mouseenter(function () {
         $(this).css({
-                backgroundColor: "#e9e5db"
-            });
-        $(this).addClass("on").siblings().removeClass("on");      
-    });
-    
-    $(".proj").mouseleave(function () {
-        $(this).css({
-                backgroundColor: "transparent"
-            });
-        $(this).removeClass("on");      
+            backgroundColor: "#e9e5db"
+        });
+        $(this).addClass("on").siblings().removeClass("on");
     });
 
+    $(".proj").mouseleave(function () {
+        $(this).css({
+            backgroundColor: "transparent"
+        });
+        $(this).removeClass("on");
+    });
+
+    /* about 페이지 글자 애니메이션 ***********************/
+    $(".main_cont.about > b").delay(500).animate({
+        opacity: "1"
+    }, 1000);
+
+    $(".introText").delay(1000).animate({
+        opacity: "1"
+    }, 1300);
+
+
+    /* 포트폴리오 페이지 글자 애니메이션 ***********************/
+    $(".img_line").delay(300).animate({
+        width: "120px"
+    }, 600);
+
+    $(".pofol_icon").delay(1000).animate({
+        opacity: "1"
+    }, 600);
+
+
+    $(".pofol_tit, .pofol_tit > small").delay(1400).animate({
+        opacity: "1"
+    }, 1000);
+
+    $(".pofol_info p, .pofol_info small, .pofol3_info p").delay(2200).animate({
+        opacity: "1"
+    }, 1500);
+
+    $(".viewBtn").delay(2500).animate({
+        opacity: "1"
+    }, 2000);
 
 
 }); ////////// jQB ///////////////////////////////
