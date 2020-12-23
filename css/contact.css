@@ -188,14 +188,16 @@
     overflow: hidden;
     opacity: 0;
 }
-.resume.contactBox:hover .marquee{
-    opacity: 1;
-}
-.email.contactBox:hover .marquee{
+
+.resume.contactBox:hover .marquee {
     opacity: 1;
 }
 
-.marquee p {
+.email.contactBox:hover .marquee {
+    opacity: 1;
+}
+
+.marquee a {
     font-size: 1.7vmin;
     display: block;
     font-family: 'S-CoreDream', sans-serif;
@@ -219,4 +221,27 @@
     to {
         transform: translate(-100%);
     }
+}
+
+
+/* 이메일 , 폰 언더라인*/
+.under_line {
+    position: relative;
+    z-index: 2;
+}
+
+.under_line::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 2.5vmin;
+    width: 0;
+    height: 0.8vmin;
+    z-index: -1;
+    transition: all .4s ease-out;
+    background: rgba(239, 60, 60, 0.5);
+}
+
+.under_line:hover::before {
+    width: 100%;
 }

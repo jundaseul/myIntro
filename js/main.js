@@ -2,7 +2,7 @@
 
 
 $(function () { /////// jQB ///////////////////////
-    console.log("로딩완료!");
+    //console.log("로딩완료!");
 
     /*gnb*/
     $(".gnb li").mouseover(function () {
@@ -64,18 +64,18 @@ $(function () { /////// jQB ///////////////////////
 
     /*contact - resume, contact 마우스오버시 !*/
     $(".resume.contactBox").mouseover(function () {
-        $(this).find("a").hide().next().hide();
+        $(this).find(".contact_tit").hide().next().hide();
     });
     $(".resume.contactBox").mouseout(function () {
-        $(this).find("a").show().next().show();
+        $(this).find(".contact_tit").show().next().show();
     });
 
 
     $(".email.contactBox").mouseover(function () {
-        $(this).find("a").hide().next().hide();
+        $(this).find(".contact_tit").hide().next().hide();
     });
     $(".email.contactBox").mouseout(function () {
-        $(this).find("a").show().next().show();
+        $(this).find(".contact_tit").show().next().show();
     });
 
 
@@ -174,17 +174,26 @@ $(function () { /////// jQB ///////////////////////
     }, 600);
 
 
-    $(".pofol_tit, .pofol_tit > small").delay(1400).animate({
+    $(".pofol1_tit, .pofol2_tit, .pofol_tit > small").delay(1400).animate({
         opacity: "1"
     }, 1000);
 
-    $(".pofol_info p, .pofol_info small, .pofol3_info p").delay(2200).animate({
+    $(".pofol_info p, .pofol_info small").delay(2200).animate({
         opacity: "1"
     }, 1500);
 
     $(".viewBtn").delay(2500).animate({
         opacity: "1"
     }, 2000);
+    
+    
+    /*포폴 3번페이지*/
+    $(".pofol_tit.pofol3").delay(300).animate({
+        opacity: "1"
+    }, 600);
+    $(".pofol3_info p").delay(800).animate({
+        opacity: "1"
+    }, 600);
 
 
 }); ////////// jQB ///////////////////////////////
