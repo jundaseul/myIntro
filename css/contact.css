@@ -197,7 +197,7 @@
     opacity: 1;
 }
 
-.marquee a {
+.marquee a , .marquee p {
     font-size: 1.7vmin;
     display: block;
     font-family: 'S-CoreDream', sans-serif;
