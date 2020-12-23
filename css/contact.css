@@ -28,7 +28,7 @@
 }
 
 .cont_left small {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'S-CoreDream', sans-serif;
     color: #4A473C;
     font-size: 1.6vmin;
     line-height: 28px;
@@ -61,7 +61,7 @@
 /*목록 내용*/
 .favoList li p {
     line-height: 2.8vmin;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'S-CoreDream', sans-serif;
     color: #4A473C;
 }
 
@@ -198,7 +198,7 @@
 .marquee p {
     font-size: 1.7vmin;
     display: block;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'S-CoreDream', sans-serif;
     font-weight: 500;
     padding: 0 30px;
     text-align: center;

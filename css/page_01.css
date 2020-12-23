@@ -143,6 +143,7 @@ body {
     padding-top: 5vmin;
     line-height: 3.3vmin;
     font-size: 1.65vmin;
+    font-weight: 300;
 }
 
 
@@ -164,14 +165,16 @@ body {
 }
 
 /*타이핑 효과****************/
-.typeTxt, .typeTxt2{
+.typeTxt,
+.typeTxt2 {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 2.5vmin;
-    font-weight: 800;
+    font-weight: 500;
+    color: #4e4743;
     letter-spacing: 1.2px;
     line-height: 3.5vmin;
 }
@@ -179,8 +182,6 @@ body {
 
 
 /*page_08 *****************************************/
-.book_01_left.page_8{
+.book_01_left.page_8 {
     margin-left: auto;
 }
-
-

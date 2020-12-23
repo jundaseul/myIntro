@@ -37,7 +37,7 @@
 .main_cont.about > b {
     position: absolute;
     font-size: 3.2vmin;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 4.5vmin;
     z-index: 999;
     top: 20.5vmin;
@@ -51,7 +51,8 @@
     bottom: 10vmin;
     font-size: 1.9vmin;
     line-height: 2.9vmin;
-    font-weight: 800;
+    font-weight: 400;
+    color: #4e4743;
 }
 
 
@@ -83,7 +84,7 @@
 .list_text {
     line-height: 3.3vmin;
     font-size: 1.85vmin;
-    font-weight: 800;
+    font-weight: 400;
     color: #4a473c;
 }
 
@@ -207,7 +208,7 @@
     font-style: normal;
     font-size: 1.7vmin;
     font-family: 'S-CoreDream';
-    font-weight: 700;
+    font-weight: 400;
     white-space: nowrap;
     top: 22%;
     left: 50%;
