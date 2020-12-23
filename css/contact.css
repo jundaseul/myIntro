@@ -239,7 +239,8 @@
     height: 0.8vmin;
     z-index: -1;
     transition: all .4s ease-out;
-    background: rgba(239, 60, 60, 0.5);
+/*    background: rgba(239, 60, 60, 0.5);*/
+    background: rgba(246, 223, 69, 0.7);
 }
 
 .under_line:hover::before {
