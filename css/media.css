@@ -1627,7 +1627,7 @@
 
     .tit2::before {
         width: 14vmin;
-        top: 8vmin;
+        top: 6vmin;
         left: 4vmin;
         background: red;
     }
@@ -2146,8 +2146,10 @@
         left: 4.8vmin;
     }
 
+/*
     .tit2::before {
         top: 16vmin;
         left: 5vmin;
     }
+*/
 }
