@@ -95,9 +95,9 @@
     display: block;
     width: 10vmin;
     background: url(../images/cover_bg.jpg) no-repeat center/cover;
-    height: 2vmin;
+    height: 3vmin;
     left: 0vmin;
-    top: 11vmin;
+    top: 12vmin;
     z-index: -1;
 }
 
