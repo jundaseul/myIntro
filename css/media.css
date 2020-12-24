@@ -1075,7 +1075,8 @@
     }
 
     .main_cont.porj_wrap .nextBtn.prevBtn {
-        right: 5px;
+        left: 3%;
+        right: auto;
         bottom: -5%;
     }
 
@@ -1200,6 +1201,10 @@
         width: 21vmin;
         font-size: 2.8vmin;
         line-height: 8vmin;
+    }
+
+    .under_line::before {
+        bottom: 2.5vmin;
     }
 
 }
@@ -1468,6 +1473,10 @@
         font-size: 3.5vmin;
     }
 
+    .under_line::before {
+        bottom: 3.5vmin;
+    }
+
     /*책 마지막 페이지*/
     .diagonal {
         width: 65vmin;
@@ -1515,7 +1524,7 @@
     }
 
     .menu_box .gnb {
-        line-height: 65px;
+        line-height: 55px;
     }
 
     .menu_box .gnb > li > a {
@@ -1617,7 +1626,7 @@
 
     .tit2::before {
         width: 14vmin;
-        top: 11vmin;
+        top: 8vmin;
         left: 4vmin;
         background: red;
     }
@@ -1667,12 +1676,12 @@
         top: 22vmin;
         font-size: 2.6vmin;
         line-height: 4.5vmin;
-        font-weight: 200;
+        font-weight: 300;
     }
 
     .comment small {
         font-size: 2.5vmin;
-        font-weight: 100;
+        font-weight: 200;
     }
 
     .comt {
@@ -1685,8 +1694,8 @@
     }
 
     .copyright {
-        font-size: 1vmin;
-        font-weight: 100;
+        font-size: 1.9vmin;
+        font-weight: 200;
         text-align: left;
         left: 6%;
         bottom: 4vmin;
@@ -1807,9 +1816,9 @@
 
     .introText {
         font-size: 3.6vmin;
-        left: 5vmin;
-        bottom: 19vmin;
-        line-height: 5.5vmin;
+        left: 4vmin;
+        bottom: 25vmin;
+        line-height: 6vmin;
     }
 
     .quotes {
@@ -1941,7 +1950,7 @@
 
     .pofol_about {
         left: 4.5vmin;
-        bottom: 28vmin;
+        bottom: 33vmin;
     }
 
     .poabout_tit {
@@ -1990,7 +1999,7 @@
     }
 
     .proj .proj_num {
-        top: -33%;
+        top: -35%;
         left: 1%;
         font-size: 6.5vmin;
     }
@@ -2114,6 +2123,9 @@
         font-size: 4vmin;
     }
 
+    .under_line::before {
+        bottom: 4vmin;
+    }
 
 }
 
