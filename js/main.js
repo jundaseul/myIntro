@@ -169,7 +169,7 @@ $(function () { /////// jQB ///////////////////////
         width: "120px"
     }, 600);
 
-    $(".pofol_icon").delay(1000).animate({
+    $(".pofol1_icon").delay(1000).animate({
         opacity: "1"
     }, 600);
 
@@ -188,12 +188,16 @@ $(function () { /////// jQB ///////////////////////
     
     
     /*포폴 3번페이지*/
-    $(".pofol_tit.pofol3").delay(300).animate({
+    $(".pofol3_icon").delay(300).animate({
+       opacity:"1" 
+    },600);
+    
+    $(".pofol_tit.pofol3").delay(700).animate({
         opacity: "1"
-    }, 600);
-    $(".pofol3_info p").delay(800).animate({
+    }, 1000);
+    $(".pofol3_info p").delay(1500).animate({
         opacity: "1"
-    }, 600);
+    }, 1500);
 
 
 }); ////////// jQB ///////////////////////////////

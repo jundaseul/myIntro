@@ -520,7 +520,7 @@
     }
 
     .menu_box .gnb {
-        line-height: 158px;
+        line-height: 135px;
     }
 
     .menu_box .gnb sup {
@@ -534,11 +534,11 @@
     }
 
     .menu_box .gnb > li > a {
-        font-size: 80px;
+        font-size: 7.5vmin;
     }
 
     .menu_portfolio .submenu > li > a {
-        font-size: 44px;
+        font-size: 4.3vmin;
         line-height: 70px;
     }
 
@@ -590,7 +590,7 @@
     /*next 버튼*/
     .nextBtn {
         display: block;
-        font-size: 33px;
+        font-size: 3.3vmin;
         bottom: 2%;
     }
 
@@ -897,7 +897,9 @@
 
     /*portfolio 페이지 ********************************/
     .prot_nextBtn {
-        display: none;
+        /*        display: none;*/
+        font-size: 3.3vmin;
+        bottom: 2%;
     }
 
 
@@ -1101,6 +1103,11 @@
         font-size: 2.8vmin;
     }
 
+    .prot_nextBtn.proj_3 {
+        bottom: -5%;
+        right: 1%;
+    }
+
     /*contact 페이지 ************************************/
 
     .favoList {
@@ -1184,21 +1191,31 @@
 
     /*공통사항 ************************************/
     .menu_box .gnb {
-        line-height: 110px;
+        line-height: 95px;
     }
 
     .menu_box .gnb sup {
-        font-size: 22px;
+        font-size: 2.5vmin;
     }
 
     .menu_box .gnb > li > a {
-        font-size: 75px;
+        font-size: 7vmin;
     }
 
     .menubtn2 {
         top: 4%;
         width: 5vw;
         right: 2.3%;
+    }
+
+    .menu_box .gnb li sup::after {
+        height: 30px;
+        left: 25px;
+    }
+
+    .menu_portfolio .submenu > li > a {
+        font-size: 4.8vmin;
+        line-height: 65px;
     }
 
 
@@ -1302,12 +1319,16 @@
     }
 
     .pofol_info p {
-        font-size: 4.1vmin;
-        line-height: 5.8vmin;
+        font-size: 4vmin;
+        line-height: 5vmin;
+    }
+
+    .pofol_info small.pofol_tag {
+        font-size: 3.6vmin;
     }
 
     .pofol_info small {
-        font-size: 3.8vmin;
+        font-size: 6vmin;
     }
 
     /*공동 포폴 페이지 ************************************/
@@ -1321,7 +1342,7 @@
 
     .proj .proj_num {
         font-size: 6vmin;
-        top: -16%;
+        top: -20%;
     }
 
     .proj .proj_img {
@@ -1429,6 +1450,41 @@
         font-size: 3.5vmin;
     }
 
+    /*책 마지막 페이지*/
+    .diagonal {
+        width: 65vmin;
+    }
+
+    .diagonal.diag2 {
+        top: 68vmin;
+    }
+
+    .circle.lastCircle {
+        width: 13vmin;
+        height: 13vmin;
+        top: 13vmin;
+        right: 9vmin;
+    }
+
+    .comment {
+        top: 22vmin;
+        font-size: 2.3vmin;
+        font-weight: 300;
+        line-height: 3.5vmin;
+    }
+
+    .comment small {
+        font-size: 2vmin;
+    }
+
+    .comt {
+        padding-bottom: 4.5vmin;
+    }
+
+    .copyright {
+        font-size: 1.8vmin;
+        font-weight: 200;
+    }
 }
 
 
@@ -1474,12 +1530,23 @@
 
 
     .nextBtn {
-        font-size: 20px;
-        bottom: 3%;
+        font-size: 4.5vmin;
+        bottom: 1%;
         right: 7%;
     }
 
+    .prot_nextBtn.prev {
+        font-size: 4.5vmin;
+        bottom: 1%;
+    }
 
+    .prot_nextBtn {
+        font-size: 4.5vmin;
+        bottom: 1%;
+    }
+
+    
+    
     /*전체 책 **************/
     .menubtn2 {
         width: 6vw;
@@ -1568,11 +1635,12 @@
         top: 22vmin;
         font-size: 2.6vmin;
         line-height: 4.5vmin;
+        font-weight: 200;
     }
 
     .comment small {
         font-size: 2.5vmin;
-        font-weight: 500;
+        font-weight: 100;
     }
 
     .comt {
@@ -1585,11 +1653,13 @@
     }
 
     .copyright {
-        font-size: 2vmin;
+        font-size: 1vmin;
+        font-weight: 100;
         text-align: left;
         left: 6%;
-        bottom: 3.5vmin;
+        bottom: 4vmin;
         line-height: 3.5vmin;
+        letter-spacing: 0.5px;
     }
 
     .circle.lastCircle {
@@ -1868,13 +1938,14 @@
 
     /*공동 포폴 페이지 ************************************/
     .pofol3_info {
-        top: 24vmin;
+        top: 20vmin;
         left: 5%;
     }
 
     .pofol3_info .pofol_tit {
         font-size: 10.5vmin;
         line-height: 7.5vmin;
+        padding-top: 5%;
     }
 
     .pofol3_info p {
@@ -1920,8 +1991,12 @@
     }
 
     .main_cont.porj_wrap .nextBtn.prevBtn {
-        right: 9px;
-        bottom: -5.5%;
+        left: 2%;
+        bottom: -7.5%;
+    }
+    .prot_nextBtn.proj_3{
+        right: 2%; 
+        bottom: -7.5%;
     }
 
     /*contact 페이지 ********************************/
