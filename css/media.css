@@ -1612,13 +1612,14 @@
 
     .tit2 {
         right: 6vmin;
-        bottom: -17vmin;
+        bottom: -15vmin;
     }
 
     .tit2::before {
         width: 14vmin;
         top: 15vmin;
         left: 4vmin;
+        background: red;
     }
 
     .year {
