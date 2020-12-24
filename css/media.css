@@ -546,8 +546,8 @@
         width: 310px;
     }
 
-    .nextBtn.prevBtn{
-        left: 5%;
+    .nextBtn.prevBtn {
+        left: 3%;
         right: auto;
     }
 
@@ -1035,8 +1035,8 @@
         font-size: 4vmin;
         padding-top: 3%;
     }
-    
-    .proj_list{
+
+    .proj_list {
         top: 45%;
     }
 
@@ -1544,7 +1544,6 @@
     .nextBtn {
         font-size: 4.5vmin;
         bottom: 1%;
-/*        right: 7%;*/
     }
 
     .prot_nextBtn.prev {
@@ -1563,6 +1562,20 @@
     .menubtn2 {
         width: 6vw;
         right: 3%;
+    }
+
+    /*목차 페이지 ********************************/
+    .content_tit {
+        font-size: 11vmin;
+    }
+
+    .content_tit::after {
+        height: 30%;
+        top: 30%;
+    }
+
+    .content_tit2 {
+        font-size: 8vmin;
     }
 
     /*인트로 페이지 ********************************/
