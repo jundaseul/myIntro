@@ -38,6 +38,7 @@
 .book_left {
     position: relative;
     width: 50%;
+    height: 100vh;
     /*    background-color: #333;*/
 }
 
