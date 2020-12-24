@@ -1694,8 +1694,8 @@
     }
 
     .copyright {
-        font-size: 1.9vmin;
-        font-weight: 200;
+        font-size: 2.1vmin;
+        font-weight: 300;
         text-align: left;
         left: 6%;
         bottom: 4vmin;
@@ -1816,8 +1816,8 @@
 
     .introText {
         font-size: 3.6vmin;
-        left: 4vmin;
-        bottom: 25vmin;
+        left: 3.5vmin;
+        bottom: 28vmin;
         line-height: 6vmin;
     }
 
@@ -1950,7 +1950,7 @@
 
     .pofol_about {
         left: 4.5vmin;
-        bottom: 33vmin;
+        bottom: 36vmin;
     }
 
     .poabout_tit {
@@ -1999,8 +1999,8 @@
     }
 
     .proj .proj_num {
-        top: -35%;
-        left: 1%;
+        top: -36%;
+        left: -1%;
         font-size: 6.5vmin;
     }
 
@@ -2042,7 +2042,7 @@
 
     /*contact 페이지 ********************************/
     .favoList {
-        margin: 5vmin auto;
+        margin: 9vmin auto;
     }
 
     .cont_left h2 br {
