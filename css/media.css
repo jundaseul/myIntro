@@ -999,8 +999,8 @@
     /*공동 포폴 페이지 ********************/
     /*왼쪽 페이지*/
     .pofol3_info {
+        top: 13vmin;
         left: 8%;
-        top: 16.3vmin;
     }
 
     .pofol3_info .pofol_tit,
@@ -1014,7 +1014,9 @@
     }
 
     .pofol3_info .pofol_tit {
-        font-size: 8vmin;
+        font-size: 8.4vmin;
+        padding-top: 5%;
+        padding-bottom: 2%;
     }
 
     .pofol_tit .pofol_icon {
@@ -1026,6 +1028,10 @@
         line-height: 4.5vmin;
         font-size: 4vmin;
         padding-top: 3%;
+    }
+    
+    .proj_list{
+        top: 45%;
     }
 
     .proj .marquee p {
@@ -1545,8 +1551,8 @@
         bottom: 1%;
     }
 
-    
-    
+
+
     /*전체 책 **************/
     .menubtn2 {
         width: 6vw;
@@ -1945,7 +1951,6 @@
     .pofol3_info .pofol_tit {
         font-size: 10.5vmin;
         line-height: 7.5vmin;
-        padding-top: 5%;
     }
 
     .pofol3_info p {
@@ -1994,8 +1999,9 @@
         left: 2%;
         bottom: -7.5%;
     }
-    .prot_nextBtn.proj_3{
-        right: 2%; 
+
+    .prot_nextBtn.proj_3 {
+        right: 2%;
         bottom: -7.5%;
     }
 
