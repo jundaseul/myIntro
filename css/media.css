@@ -546,6 +546,9 @@
         width: 310px;
     }
 
+    .nextBtn.prevBtn{
+        right: auto;
+    }
 
 
     /*전체 책 **************/
