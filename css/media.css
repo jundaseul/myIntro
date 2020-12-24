@@ -547,6 +547,7 @@
     }
 
     .nextBtn.prevBtn{
+        left: 5%;
         right: auto;
     }
 
@@ -619,6 +620,7 @@
 
     .tit {
         font-size: 4.5vmin;
+        letter-spacing: 2px;
     }
 
     .tit1 {
