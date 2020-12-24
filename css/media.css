@@ -1184,8 +1184,9 @@
         padding: 36px 0;
     }
 
+    .marquee a,
     .marquee p {
-        font-size: 2.7vmin;
+        font-size: 2.8vmin;
     }
 
     .contact_info {
@@ -2121,6 +2122,10 @@
 
     .marquee p {
         font-size: 4vmin;
+    }
+
+    .marquee a {
+        font-size: 3.8vmin;
     }
 
     .under_line::before {
