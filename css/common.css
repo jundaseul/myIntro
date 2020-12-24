@@ -87,7 +87,8 @@
 
 .content_tit2 {
     position: absolute;
-    bottom: 15px;
+    bottom: 1.6vmin;
+    left: 7.5vmin;
     font-size: 5.4vmin;
     padding-left: 1%;
 }
@@ -196,7 +197,7 @@
 
 /*prev 버튼*/
 .nextBtn.prevBtn {
-        left: 6%;
+    left: 6%;
     /*    display: none;*/
 }
 
