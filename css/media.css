@@ -606,6 +606,12 @@
         right: 2.8%;
     }
 
+    /*목차 페이지 ********************************/
+    .nextBtn.prevBtn.contents {
+        left: auto;
+        right: 6%;
+    }
+
 
     /*인트로 페이지 ********************************/
     .book {
@@ -738,7 +744,7 @@
     /*목차 오른쪽*/
     /*첫번째 목차*/
     .contents_txt {
-        top: 6vmin;
+        top: 10vmin;
         right: auto;
         left: 10vmin;
     }
@@ -1570,12 +1576,12 @@
     }
 
     .content_tit::after {
-        height: 35%;
+        height: 38%;
         top: 35%;
     }
 
     .content_tit2 {
-        font-size: 8vmin;
+        font-size: 9vmin;
     }
 
     /*인트로 페이지 ********************************/
