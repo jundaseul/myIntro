@@ -1184,6 +1184,15 @@
         padding: 36px 0;
     }
 
+    /*카카오 큐알코드*/
+    .contact_info h5.kakao_tit {
+        line-height: 24vmin;
+    }
+
+    .kakao_qr {
+        width: 15vmin;
+    }
+
     .marquee a,
     .marquee p {
         font-size: 2.8vmin;
@@ -1195,13 +1204,13 @@
 
     .contact_info li {
         font-size: 3vmin;
-        line-height: 8vmin;
+        line-height: 10vmin;
     }
 
     .contact_info h5 {
         width: 21vmin;
         font-size: 2.8vmin;
-        line-height: 8vmin;
+        line-height: 10vmin;
     }
 
     .under_line::before {
@@ -1447,7 +1456,8 @@
     }
 
     .favoList li p {
-        font-size: 2.8vmin;
+        font-size: 2.4vmin;
+        line-height: 3.6vmin;
     }
 
     /*오른쪽 페이지*/
@@ -1468,6 +1478,10 @@
 
     .contactBtn > div > a {
         font-size: 4vmin;
+    }
+
+    .contact_info h5.kakao_tit {
+        line-height: 22vmin;
     }
 
     .marquee p {
@@ -2076,8 +2090,8 @@
     }
 
     .favoList li p {
-        font-size: 3.3vmin;
-        line-height: 4.3vmin;
+        font-size: 3vmin;
+        line-height: 4.8vmin;
     }
 
     /*오른쪽 페이지*/
@@ -2119,6 +2133,14 @@
         width: 12px;
     }
 
+    .contact_info h5.kakao_tit {
+        line-height: 37vmin;
+    }
+
+    .kakao_qr {
+        width: 23vmin;
+    }
+
     .marquee p {
         font-size: 4vmin;
     }
@@ -2145,7 +2167,7 @@
         left: 4.8vmin;
     }
 
-/*
+    /*
     .tit2::before {
         top: 16vmin;
         left: 5vmin;

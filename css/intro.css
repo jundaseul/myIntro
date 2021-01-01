@@ -65,7 +65,7 @@
 
 /*타이틀 1*/
 .tit1 {
-    top: -7vmin;
+    top: -8vmin;
     left: 9vmin;
 }
 
@@ -84,7 +84,7 @@
 
 /*타이틀 2*/
 .tit2 {
-    bottom: -10vmin;
+    bottom: -11vmin;
     right: 9vmin;
 }
 
@@ -97,7 +97,7 @@
     background: url(../images/cover_bg.jpg) no-repeat center/cover;
     height: 3vmin;
     left: 0vmin;
-    top: 12vmin;
+    top: 10vmin;
     z-index: -1;
 }
 
