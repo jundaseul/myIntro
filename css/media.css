@@ -1191,6 +1191,7 @@
 
     .kakao_qr {
         width: 15vmin;
+        height: 15vmin;
     }
 
     .marquee a,
@@ -2139,6 +2140,7 @@
 
     .kakao_qr {
         width: 23vmin;
+        height: 23vmin;
     }
 
     .marquee p {
