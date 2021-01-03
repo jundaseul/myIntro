@@ -5,6 +5,19 @@
 @media only screen and (max-width:1800px) {
     /*공통사항 ************************************/
 
+    /*책커버 페이지 ********************************/
+    .tit1{
+        top: -7vmin;
+    }
+    .tit1::before{
+        width: 9.5vmin;
+        top: 5vmin;
+    }
+    .tit2::before{
+        width: 9.5vmin;
+        top: 6vmin;
+    }
+    
     /*about 페이지 ********************************/
     .about_list {
         padding: 5vmin 6.5vmin;
