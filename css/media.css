@@ -46,12 +46,17 @@
         bottom: 10%;
         right: -2%;
     }
+    
+    .introText{
+        left: 4vmin;
+        bottom: 14vmin;
+    }
 
 
     /*portfolio 페이지 ********************************/
 
     .pofol_info {
-        left: 4vmin;
+        left: 3vmin;
     }
 
 }
