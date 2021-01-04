@@ -782,15 +782,6 @@
         font-size: 5vmin;
     }
 
-    .contxt_link::after {
-        height: 35vmin;
-    }
-
-    .contxt_paging {
-        font-size: 2.5vmin;
-        padding-top: 38vmin;
-    }
-
     /*두번째 목차*/
     .contents_txt_2 {
         right: auto;
@@ -801,22 +792,6 @@
     .contents_txt_3 {
         right: auto;
         left: 34vmin;
-    }
-
-    .contents_txt_2 .contxt_link::after {
-        height: 13.5vmin;
-    }
-
-    .contents_txt_2 .contxt_paging {
-        padding-top: 16.8vmin;
-    }
-
-    .contents_txt_3 .contxt_link::after {
-        height: 24vmin;
-    }
-
-    .contents_txt_3 .contxt_paging {
-        padding-top: 27.4vmin;
     }
 
     /*about 페이지 ********************************/
@@ -1426,20 +1401,8 @@
         font-size: 6vmin;
     }
 
-    .contxt_paging {
-        font-size: 3vmin;
-    }
-
-    .contents_txt_2 .contxt_paging {
-        padding-top: 13vmin;
-    }
-
     .contents_txt_2 .contxt_link::after {
         height: 10vmin;
-    }
-
-    .contents_txt_3 .contxt_paging {
-        padding-top: 25.5vmin;
     }
 
     .contents_txt_3 .contxt_link::after {
@@ -1802,21 +1765,8 @@
         height: 45vmin;
     }
 
-    .contents_txt_2 .contxt_paging {
-        padding-top: 17vmin;
-    }
-
-    .contxt_paging {
-        font-size: 4vmin;
-        padding-top: 47vmin;
-    }
-
     .contents_txt_2 .contxt_link::after {
         height: 15vmin;
-    }
-
-    .contents_txt_3 .contxt_paging {
-        padding-top: 32vmin;
     }
 
     .contents_txt_3 .contxt_link::after {
