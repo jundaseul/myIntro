@@ -6,21 +6,24 @@
     /*공통사항 ************************************/
 
     /*책커버 페이지 ********************************/
-    .tit1{
+    .tit1 {
         top: -7vmin;
     }
-    .tit1::before{
+
+    .tit1::before {
         width: 9.5vmin;
         top: 5vmin;
     }
-    .tit2{
+
+    .tit2 {
         bottom: -9.5vmin;
     }
-    .tit2::before{
+
+    .tit2::before {
         width: 9.5vmin;
         top: 7vmin;
     }
-    
+
     /*about 페이지 ********************************/
     .about_list {
         padding: 5vmin 6.5vmin;
@@ -46,8 +49,8 @@
         bottom: 10%;
         right: -2%;
     }
-    
-    .introText{
+
+    .introText {
         left: 4vmin;
         bottom: 14vmin;
     }
@@ -589,6 +592,10 @@
         height: 100vh;
     }
 
+    .sideCont.right {
+        border-left: 1px solid #333;
+    }
+
     .centerLine {
         display: none;
     }
@@ -610,6 +617,7 @@
 
     .sideContxt {
         font-size: 3.3vmin;
+        font-weight: 500;
     }
 
 
@@ -815,10 +823,10 @@
     }
 
     .introText {
-        left: 8vmin;
-        bottom: 12vmin;
-        font-size: 2.85vmin;
-        line-height: 4.3vmin;
+        left: 4vmin;
+        bottom: 18vmin;
+        font-size: 2.6vmin;
+        line-height: 5vmin;
     }
 
     .list_box {
@@ -977,7 +985,7 @@
     }
 
     .pofol_about {
-        left: 7vmin;
+        left: 4vmin;
         bottom: 32vmin;
     }
 
@@ -1039,7 +1047,7 @@
     }
 
     .proj_list {
-        top: 45%;
+        top: 50%;
     }
 
     .proj .marquee p {
@@ -1130,7 +1138,7 @@
     }
 
     .cont_left h2 {
-        padding-top: 13.5vmin;
+        padding-top: 11vmin;
         line-height: 5.8vmin;
         font-size: 3.3vmin;
     }
@@ -1152,13 +1160,13 @@
     }
 
     .favoList li p {
-        font-size: 2.5vmin;
+        font-size: 2.3vmin;
+        line-height: 3.5vmin;
     }
 
     .favoList li b {
         font-size: 2.8vmin;
-        letter-spacing: 1.8px;
-        padding: 2vmin 0 1vmin 0;
+        padding: 1vmin 0 1vmin 0;
     }
 
     /*오른쪽페이지*/
@@ -1327,6 +1335,42 @@
         line-height: 7.5vmin;
     }
 
+    /*about 페이지 ********************************/
+    .introText {
+        left: 2.2vmin;
+        bottom: 20vmin;
+        font-size: 2.7vmin;
+        line-height: 4.5vmin;
+    }
+
+    .list_title {
+        width: 175px;
+    }
+
+    .btn2 {
+        width: 25vmin;
+        left: -4%;
+    }
+
+    .btn3 {
+        right: -5%;
+        top: 9%;
+    }
+
+    .btn4 {
+        bottom: -22%;
+    }
+
+    .btn5 {
+        width: 25vmin;
+        height: 25vmin;
+        bottom: -24%;
+        right: -2%;
+    }
+
+    .about_list {
+        padding: 30px 55px;
+    }
 
     /*portfolio 페이지 ********************************/
     .poabout_tit {
@@ -1437,11 +1481,9 @@
 
     .favoList li b {
         font-size: 3vmin;
-        letter-spacing: 1.5px;
     }
 
     .favoList li p {
-        font-size: 2.4vmin;
         line-height: 3.6vmin;
     }
 
@@ -1795,16 +1837,24 @@
     }
 
     .profile {
-        width: 63vmin;
-        left: 20vmin;
+        width: 59vmin;
+        left: 22vmin;
         top: 25vmin;
     }
 
     .introText {
         font-size: 3.6vmin;
-        left: 3.5vmin;
-        bottom: 28vmin;
-        line-height: 6vmin;
+        left: 2vmin;
+        bottom: 19vmin;
+        line-height: 5vmin;
+    }
+
+    .intro_Break {
+        display: block;
+    }
+
+    .mobile_br {
+        display: none;
     }
 
     .quotes {
@@ -1936,7 +1986,7 @@
 
     .pofol_about {
         left: 4.5vmin;
-        bottom: 36vmin;
+        bottom: 30vmin;
     }
 
     .poabout_tit {
@@ -2028,7 +2078,7 @@
 
     /*contact 페이지 ********************************/
     .favoList {
-        margin: 9vmin auto;
+        margin: 5vmin auto;
     }
 
     .cont_left h2 br {
@@ -2036,7 +2086,7 @@
     }
 
     .cont_left h2 {
-        padding-top: 23vmin;
+        padding-top: 20vmin;
         font-size: 4vmin;
     }
 
@@ -2045,8 +2095,12 @@
     }
 
     .favoList li {
-        height: 37vmin;
-        padding: 3vmin;
+        height: 38vmin;
+        padding: 5vmin 3vmin;
+    }
+
+    .favoList li:nth-child(3) {
+        height: 42vmin;
     }
 
     .favolist_img {
@@ -2056,14 +2110,14 @@
     }
 
     .favoList li b {
-        font-size: 3.8vmin;
-        letter-spacing: 1px;
-        padding: 4vmin 0 1vmin 0;
+        font-size: 3.4vmin;
+        padding: 0 0 1vmin 0;
     }
 
     .favoList li p {
         font-size: 3vmin;
         line-height: 4.8vmin;
+        margin-top: 1vmin;
     }
 
     /*오른쪽 페이지*/
@@ -2072,7 +2126,7 @@
     }
 
     .contact_info h5 {
-        width: 28vmin;
+        width: 25vmin;
         font-size: 4vmin;
         line-height: 12vmin;
     }
@@ -2146,4 +2200,16 @@
         left: 5vmin;
     }
 */
+
+    .favoList li:nth-child(3) {
+        height: 40vmin;
+    }
+
+    .introText {
+        font-size: 3.7vmin;
+    }
+
+    .list_text {
+        font-size: 3.58vmin;
+    }
 }

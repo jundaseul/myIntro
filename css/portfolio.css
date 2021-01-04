@@ -227,7 +227,7 @@
 .sideCont.right {
     position: relative;
     margin-left: auto;
-    border-left: 1px solid #333;
+/*    border-left: 1px solid #333;*/
     border-right: none;
 }
 

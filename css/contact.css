@@ -68,9 +68,9 @@
 /*목록 제목*/
 .favoList li b {
     display: block;
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 1.8vmin;
-    letter-spacing: 1px;
+    letter-spacing: 0.3px;
     padding-bottom: 3%;
 }
 
