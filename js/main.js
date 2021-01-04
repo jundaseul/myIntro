@@ -154,6 +154,7 @@ $(function () { /////// jQB ///////////////////////
         $(this).removeClass("on");
     });
 
+    
     /* about 페이지 글자 애니메이션 ***********************/
     $(".main_cont.about > b").delay(500).animate({
         opacity: "1"
@@ -165,39 +166,39 @@ $(function () { /////// jQB ///////////////////////
 
 
     /* 포트폴리오 페이지 글자 애니메이션 ***********************/
-    $(".img_line").delay(300).animate({
+    $(".img_line").animate({
         width: "120px"
     }, 600);
 
-    $(".pofol1_icon").delay(1000).animate({
+    $(".pofol1_icon").delay(600).animate({
         opacity: "1"
     }, 600);
 
 
-    $(".pofol1_tit, .pofol2_tit, .pofol_tit > small").delay(1400).animate({
+    $(".pofol1_tit, .pofol2_tit, .pofol_tit > small").delay(1000).animate({
+        opacity: "1"
+    }, 800);
+
+    $(".pofol_info p, .pofol_info small").delay(1400).animate({
         opacity: "1"
     }, 1000);
 
-    $(".pofol_info p, .pofol_info small").delay(2200).animate({
+    $(".viewBtn").delay(1800).animate({
         opacity: "1"
-    }, 1500);
-
-    $(".viewBtn").delay(2500).animate({
-        opacity: "1"
-    }, 2000);
+    }, 1300);
     
     
     /*포폴 3번페이지*/
-    $(".pofol3_icon").delay(300).animate({
+    $(".pofol3_icon").animate({
        opacity:"1" 
     },600);
     
-    $(".pofol_tit.pofol3").delay(700).animate({
+    $(".pofol_tit.pofol3").delay(200).animate({
         opacity: "1"
     }, 1000);
-    $(".pofol3_info p").delay(1500).animate({
+    $(".pofol3_info p").delay(500).animate({
         opacity: "1"
-    }, 1500);
+    }, 1200);
 
 
 }); ////////// jQB ///////////////////////////////
