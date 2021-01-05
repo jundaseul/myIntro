@@ -1600,17 +1600,17 @@
 
     .nextBtn {
         font-size: 4.5vmin;
-        bottom: 1%;
+        bottom: 5%;
     }
 
     .prot_nextBtn.prev {
         font-size: 4.5vmin;
-        bottom: 1%;
+        bottom: 5%;
     }
 
     .prot_nextBtn {
         font-size: 4.5vmin;
-        bottom: 1%;
+        bottom: 5%;
     }
 
 
@@ -1627,12 +1627,13 @@
     }
 
     .content_tit::after {
-        height: 38%;
-        top: 35%;
+        height: 30%;
+        top: 37%;
     }
 
     .content_tit2 {
         font-size: 9vmin;
+        bottom: 16vmin;
     }
 
     /*인트로 페이지 ********************************/
@@ -1845,7 +1846,7 @@
     .introText {
         font-size: 3.6vmin;
         left: 2vmin;
-        bottom: 19vmin;
+        bottom: 30vmin;
         line-height: 5vmin;
     }
 
@@ -2014,6 +2015,10 @@
     }
 
     /*공동 포폴 페이지 ************************************/
+    .proj_media_left {
+        margin-top: -10vmin;
+    }
+
     .pofol3_info {
         top: 20vmin;
         left: 5%;
@@ -2067,13 +2072,13 @@
     }
 
     .main_cont.porj_wrap .nextBtn.prevBtn {
-        left: 2%;
-        bottom: -7.5%;
+        left: -1%;
+        bottom: -3.5%;
     }
 
     .prot_nextBtn.proj_3 {
         right: 2%;
-        bottom: -7.5%;
+        bottom: -3.5%;
     }
 
     /*contact 페이지 ********************************/
@@ -2086,7 +2091,7 @@
     }
 
     .cont_left h2 {
-        padding-top: 20vmin;
+        padding-top: 18vmin;
         font-size: 4vmin;
     }
 
@@ -2095,12 +2100,12 @@
     }
 
     .favoList li {
-        height: 38vmin;
-        padding: 5vmin 3vmin;
+        height: 35vmin;
+        padding: 2vmin 3vmin;
     }
 
     .favoList li:nth-child(3) {
-        height: 42vmin;
+        height: 43vmin;
     }
 
     .favolist_img {
@@ -2122,7 +2127,7 @@
 
     /*오른쪽 페이지*/
     .contact_info {
-        bottom: 31%;
+        bottom: 36%;
     }
 
     .contact_info h5 {
@@ -2137,7 +2142,7 @@
     }
 
     .contactBtn {
-        bottom: 14%;
+        bottom: 20%;
     }
 
     .contactBtn > div {
