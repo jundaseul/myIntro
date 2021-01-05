@@ -2081,6 +2081,7 @@
     /*contact 페이지 ********************************/
     .favoList {
         margin: 5vmin auto;
+        width: 95%;
     }
 
     .cont_left h2 br {
