@@ -5,6 +5,25 @@
 @media only screen and (max-width:1800px) {
     /*공통사항 ************************************/
 
+    /*책커버 페이지 ********************************/
+    .tit1 {
+        top: -7vmin;
+    }
+
+    .tit1::before {
+        width: 9.5vmin;
+        top: 5vmin;
+    }
+
+    .tit2 {
+        bottom: -9.5vmin;
+    }
+
+    .tit2::before {
+        width: 9.5vmin;
+        top: 7vmin;
+    }
+
     /*about 페이지 ********************************/
     .about_list {
         padding: 5vmin 6.5vmin;
@@ -31,11 +50,16 @@
         right: -2%;
     }
 
+    .introText {
+        left: 4vmin;
+        bottom: 14vmin;
+    }
+
 
     /*portfolio 페이지 ********************************/
 
     .pofol_info {
-        left: 4vmin;
+        left: 3vmin;
     }
 
 }
@@ -568,6 +592,10 @@
         height: 100vh;
     }
 
+    .sideCont.right {
+        border-left: 1px solid #333;
+    }
+
     .centerLine {
         display: none;
     }
@@ -589,6 +617,7 @@
 
     .sideContxt {
         font-size: 3.3vmin;
+        font-weight: 500;
     }
 
 
@@ -761,15 +790,6 @@
         font-size: 5vmin;
     }
 
-    .contxt_link::after {
-        height: 35vmin;
-    }
-
-    .contxt_paging {
-        font-size: 2.5vmin;
-        padding-top: 38vmin;
-    }
-
     /*두번째 목차*/
     .contents_txt_2 {
         right: auto;
@@ -780,22 +800,6 @@
     .contents_txt_3 {
         right: auto;
         left: 34vmin;
-    }
-
-    .contents_txt_2 .contxt_link::after {
-        height: 13.5vmin;
-    }
-
-    .contents_txt_2 .contxt_paging {
-        padding-top: 16.8vmin;
-    }
-
-    .contents_txt_3 .contxt_link::after {
-        height: 24vmin;
-    }
-
-    .contents_txt_3 .contxt_paging {
-        padding-top: 27.4vmin;
     }
 
     /*about 페이지 ********************************/
@@ -819,10 +823,10 @@
     }
 
     .introText {
-        left: 8vmin;
-        bottom: 12vmin;
-        font-size: 2.85vmin;
-        line-height: 4.3vmin;
+        left: 4vmin;
+        bottom: 18vmin;
+        font-size: 2.6vmin;
+        line-height: 5vmin;
     }
 
     .list_box {
@@ -981,7 +985,7 @@
     }
 
     .pofol_about {
-        left: 7vmin;
+        left: 4vmin;
         bottom: 32vmin;
     }
 
@@ -1043,7 +1047,7 @@
     }
 
     .proj_list {
-        top: 45%;
+        top: 50%;
     }
 
     .proj .marquee p {
@@ -1134,7 +1138,7 @@
     }
 
     .cont_left h2 {
-        padding-top: 13.5vmin;
+        padding-top: 11vmin;
         line-height: 5.8vmin;
         font-size: 3.3vmin;
     }
@@ -1156,13 +1160,13 @@
     }
 
     .favoList li p {
-        font-size: 2.5vmin;
+        font-size: 2.3vmin;
+        line-height: 3.5vmin;
     }
 
     .favoList li b {
         font-size: 2.8vmin;
-        letter-spacing: 1.8px;
-        padding: 2vmin 0 1vmin 0;
+        padding: 1vmin 0 1vmin 0;
     }
 
     /*오른쪽페이지*/
@@ -1184,6 +1188,16 @@
         padding: 36px 0;
     }
 
+    /*카카오 큐알코드*/
+    .contact_info h5.kakao_tit {
+        line-height: 24vmin;
+    }
+
+    .kakao_qr {
+        width: 15vmin;
+        height: 15vmin;
+    }
+
     .marquee a,
     .marquee p {
         font-size: 2.8vmin;
@@ -1195,13 +1209,13 @@
 
     .contact_info li {
         font-size: 3vmin;
-        line-height: 8vmin;
+        line-height: 10vmin;
     }
 
     .contact_info h5 {
         width: 21vmin;
         font-size: 2.8vmin;
-        line-height: 8vmin;
+        line-height: 10vmin;
     }
 
     .under_line::before {
@@ -1321,6 +1335,42 @@
         line-height: 7.5vmin;
     }
 
+    /*about 페이지 ********************************/
+    .introText {
+        left: 2.2vmin;
+        bottom: 20vmin;
+        font-size: 2.7vmin;
+        line-height: 4.5vmin;
+    }
+
+    .list_title {
+        width: 175px;
+    }
+
+    .btn2 {
+        width: 25vmin;
+        left: -4%;
+    }
+
+    .btn3 {
+        right: -5%;
+        top: 9%;
+    }
+
+    .btn4 {
+        bottom: -22%;
+    }
+
+    .btn5 {
+        width: 25vmin;
+        height: 25vmin;
+        bottom: -24%;
+        right: -2%;
+    }
+
+    .about_list {
+        padding: 30px 55px;
+    }
 
     /*portfolio 페이지 ********************************/
     .poabout_tit {
@@ -1395,20 +1445,8 @@
         font-size: 6vmin;
     }
 
-    .contxt_paging {
-        font-size: 3vmin;
-    }
-
-    .contents_txt_2 .contxt_paging {
-        padding-top: 13vmin;
-    }
-
     .contents_txt_2 .contxt_link::after {
         height: 10vmin;
-    }
-
-    .contents_txt_3 .contxt_paging {
-        padding-top: 25.5vmin;
     }
 
     .contents_txt_3 .contxt_link::after {
@@ -1443,11 +1481,10 @@
 
     .favoList li b {
         font-size: 3vmin;
-        letter-spacing: 1.5px;
     }
 
     .favoList li p {
-        font-size: 2.8vmin;
+        line-height: 3.6vmin;
     }
 
     /*오른쪽 페이지*/
@@ -1468,6 +1505,10 @@
 
     .contactBtn > div > a {
         font-size: 4vmin;
+    }
+
+    .contact_info h5.kakao_tit {
+        line-height: 22vmin;
     }
 
     .marquee p {
@@ -1559,17 +1600,17 @@
 
     .nextBtn {
         font-size: 4.5vmin;
-        bottom: 1%;
+        bottom: 5%;
     }
 
     .prot_nextBtn.prev {
         font-size: 4.5vmin;
-        bottom: 1%;
+        bottom: 5%;
     }
 
     .prot_nextBtn {
         font-size: 4.5vmin;
-        bottom: 1%;
+        bottom: 5%;
     }
 
 
@@ -1586,12 +1627,13 @@
     }
 
     .content_tit::after {
-        height: 38%;
-        top: 35%;
+        height: 36%;
+        top: 36%;
     }
 
     .content_tit2 {
         font-size: 9vmin;
+        bottom: 6vmin;
     }
 
     /*인트로 페이지 ********************************/
@@ -1766,21 +1808,8 @@
         height: 45vmin;
     }
 
-    .contents_txt_2 .contxt_paging {
-        padding-top: 17vmin;
-    }
-
-    .contxt_paging {
-        font-size: 4vmin;
-        padding-top: 47vmin;
-    }
-
     .contents_txt_2 .contxt_link::after {
         height: 15vmin;
-    }
-
-    .contents_txt_3 .contxt_paging {
-        padding-top: 32vmin;
     }
 
     .contents_txt_3 .contxt_link::after {
@@ -1809,16 +1838,24 @@
     }
 
     .profile {
-        width: 63vmin;
-        left: 20vmin;
+        width: 59vmin;
+        left: 22vmin;
         top: 25vmin;
     }
 
     .introText {
         font-size: 3.6vmin;
-        left: 3.5vmin;
-        bottom: 28vmin;
-        line-height: 6vmin;
+        left: 2vmin;
+        bottom: 19vmin;
+        line-height: 5vmin;
+    }
+
+    .intro_Break {
+        display: block;
+    }
+
+    .mobile_br {
+        display: none;
     }
 
     .quotes {
@@ -1950,7 +1987,7 @@
 
     .pofol_about {
         left: 4.5vmin;
-        bottom: 36vmin;
+        bottom: 30vmin;
     }
 
     .poabout_tit {
@@ -1978,6 +2015,7 @@
     }
 
     /*공동 포폴 페이지 ************************************/
+
     .pofol3_info {
         top: 20vmin;
         left: 5%;
@@ -1991,7 +2029,7 @@
     .pofol3_info p {
         font-size: 4.9vmin;
         line-height: 6.8vmin;
-        padding-top: 4%;
+        padding-top: 2%;
     }
 
     .proj {
@@ -2031,18 +2069,19 @@
     }
 
     .main_cont.porj_wrap .nextBtn.prevBtn {
-        left: 2%;
-        bottom: -7.5%;
+        left: -1%;
+        bottom: -3.5%;
     }
 
     .prot_nextBtn.proj_3 {
         right: 2%;
-        bottom: -7.5%;
+        bottom: -3.5%;
     }
 
     /*contact 페이지 ********************************/
     .favoList {
-        margin: 9vmin auto;
+        margin: 5vmin auto;
+        width: 95%;
     }
 
     .cont_left h2 br {
@@ -2050,7 +2089,7 @@
     }
 
     .cont_left h2 {
-        padding-top: 23vmin;
+        padding-top: 20vmin;
         font-size: 4vmin;
     }
 
@@ -2059,8 +2098,12 @@
     }
 
     .favoList li {
-        height: 37vmin;
-        padding: 3vmin;
+        height: 38vmin;
+        padding: 4vmin 3vmin;
+    }
+
+    .favoList li:nth-child(3) {
+        height: 46vmin;
     }
 
     .favolist_img {
@@ -2070,14 +2113,15 @@
     }
 
     .favoList li b {
-        font-size: 3.8vmin;
-        letter-spacing: 1px;
-        padding: 4vmin 0 1vmin 0;
+        font-size: 3.4vmin;
+        padding: 0 0 1vmin 0;
+        white-space: nowrap;
     }
 
     .favoList li p {
-        font-size: 3.3vmin;
-        line-height: 4.3vmin;
+        font-size: 3vmin;
+        line-height: 4.8vmin;
+        margin-top: 1vmin;
     }
 
     /*오른쪽 페이지*/
@@ -2086,7 +2130,7 @@
     }
 
     .contact_info h5 {
-        width: 28vmin;
+        width: 25vmin;
         font-size: 4vmin;
         line-height: 12vmin;
     }
@@ -2119,6 +2163,15 @@
         width: 12px;
     }
 
+    .contact_info h5.kakao_tit {
+        line-height: 37vmin;
+    }
+
+    .kakao_qr {
+        width: 23vmin;
+        height: 23vmin;
+    }
+
     .marquee p {
         font-size: 4vmin;
     }
@@ -2145,10 +2198,22 @@
         left: 4.8vmin;
     }
 
-/*
+    /*
     .tit2::before {
         top: 16vmin;
         left: 5vmin;
     }
 */
+
+    .favoList li:nth-child(3) {
+        height: 40vmin;
+    }
+
+    .introText {
+        font-size: 3.7vmin;
+    }
+
+    .list_text {
+        font-size: 3.58vmin;
+    }
 }

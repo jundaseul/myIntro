@@ -424,7 +424,7 @@
 
 /*2번*/
 .proj_2 .proj_img {
-    background: url(../images/proj_2.jpg) no-repeat center/cover;
+    background: url(../images/proj_2.png) no-repeat center/cover;
 }
 
 /*3번*/
@@ -432,6 +432,23 @@
     background: url(../images/proj_3.jpg) no-repeat center/cover;
 }
 
+/*4번*/
+.proj_4 .proj_img {
+    background: url(../images/proj_4.jpg) no-repeat center/cover;
+}
+
+/*5번*/
+.proj_5 .proj_img {
+    background: url(../images/proj_5.png) no-repeat center/cover;
+}
+
+
+/*카본뷰티 small*/
+.proj_1 .porj_tit small {
+    font-size: 1.7vmin;
+    font-weight: 500;
+    color: #E26A35;
+}
 
 /*이미지 흘러가는 글씨*/
 .proj.on .marquee {

@@ -96,5 +96,5 @@ body {
     /*1200px보다 작아질 때 화면에 맞춤*/
     margin: 0 auto;
     overflow: hidden;
-    outline: 2px dashed blue; 
+/*    outline: 2px dashed blue; */
 }

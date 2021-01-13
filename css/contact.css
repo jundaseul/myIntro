@@ -68,9 +68,10 @@
 /*목록 제목*/
 .favoList li b {
     display: block;
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 1.8vmin;
-    letter-spacing: 1px;
+    letter-spacing: 0.3px;
+    padding-bottom: 3%;
 }
 
 
@@ -92,7 +93,7 @@
 .contact_info li {
     display: flex;
     font-size: 1.9vmin;
-    line-height: 6vmin;
+    line-height: 6.5vmin;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -102,6 +103,17 @@
     width: 15vmin;
     font-size: 2vmin;
     line-height: 6.5vmin;
+}
+
+/*카카오 큐알코드*/
+.contact_info h5.kakao_tit{
+    height: 9vmin;
+    line-height: 13vmin;
+}
+
+.kakao_qr{
+    width: 9vmin;
+    height: 9vmin;
 }
 
 
