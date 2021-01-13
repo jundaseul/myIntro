@@ -227,7 +227,7 @@
 .sideCont.right {
     position: relative;
     margin-left: auto;
-    border-left: 1px solid #333;
+/*    border-left: 1px solid #333;*/
     border-right: none;
 }
 
@@ -242,7 +242,7 @@
 /*포폴 컨셉, 내용*/
 .pofol_about {
     position: absolute;
-    left: 10vmin;
+    left: 7vmin;
     bottom: 14vmin;
     text-align: inherit;
     vertical-align: top;
