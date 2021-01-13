@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* contents.css - 목차 페이지 */
+
+
+/*반점이미지*/
+.contxt_icon {
+    padding-bottom: 3.5vmin;
+    transform: rotate(4deg);
+}
+
+.contxt_icon img {
+    width: 23%;
+}
+
+/*링크(텍스트)*/
+.contxt_link {
+    position: relative;
+    font-size: 4.1vmin;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    /*글씨 세로 타이핑*/
+    letter-spacing: -10px;
+    line-height: 60px;
+    padding-bottom: 40px;
+    z-index: 9999;
+}
+
+/*목차 선*/
+/*
+.contxt_link::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 27.5vmin;
+    top: 100%;
+    right: 50%;
+    background-color: #B5B5B5;
+}
+*/
+
+/*목차 페이징번호*/
+/*
+.contxt_paging{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.8vmin;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 29.6vmin;
+    letter-spacing: 1px;
+}
+*/
+
+
+/*두번째 목차*/
+.contents_txt_2{
+    position: absolute;
+    top: 0;
+    right: 8.9vmin;
+}
+
+.contents_txt_2 .contxt_link::after{
+    height: 11.6vmin;
+}
+
+
+.contents_txt_2 .contxt_paging{
+    padding-top: 13.4vmin;
+}
+
+
+
+/*세번째 목차*/
+.contents_txt_3{
+    position: absolute;
+    top: 0;
+    right: 18.2vmin;
+}
+
+.contents_txt_3 .contxt_link::after{
+    height: 19.5vmin;
+}
+
+.contents_txt_3 .contxt_paging{
+    padding-top: 21.2vmin;
+}
+
+
+
+/*목차부분 next버튼 색상 변경*/
+.nextBtn.contBtn{
+    color: #fff;
+}

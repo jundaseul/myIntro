@@ -1,0 +1,292 @@
+@charset "utf-8";
+
+/* common.css - 공통레이아웃 */
+/*책 박스*/
+#book_wrap .inbox {
+    width: 82%;
+    box-shadow: -13px 13px 40px rgba(0, 0, 0, 0.25);
+    background: url(../images/book_bg_2.jpg) no-repeat center/cover;
+}
+
+/*속박스 높이값*/
+.book_01 {
+    height: 100vh;
+    font-family: 'S-CoreDream';
+}
+
+.book_box {
+    position: relative;
+    display: flex;
+    height: 100%;
+}
+
+/*중앙 구분선*/
+.centerLine {
+    position: absolute;
+    width: 0.6vmin;
+    height: 100%;
+    background-color: #c9c9c9;
+    /*    background-color: #878787;*/
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 13px 37px rgba(0, 0, 0.9);
+    /*    box-shadow: 0px 20px 21px #7B7B79;*/
+    z-index: 9999;
+}
+
+
+.book_left {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    /*    background-color: #333;*/
+}
+
+/*목차페이지 왼쪽영역*/
+.book_left.contents {
+    font-family: 'Merriweather', serif;
+    background: url(../images/content_bg.jpg) no-repeat center/cover;
+    padding-left: 7.5vmin;
+    color: #fff;
+}
+
+/*왼쪽 컨텐츠 영역*/
+.main_cont {
+    width: 90%;
+    position: relative;
+}
+
+/*목차 타이틀*/
+.content_tit,
+.content_tit2 {
+    writing-mode: tb-rl;
+    /*글씨 세로정렬*/
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.content_tit {
+    position: relative;
+    font-size: 7vmin;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.content_tit::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 1px;
+    height: 26%;
+    background-color: #fff;
+    left: 50%;
+    top: 44%;
+    transform: translateX(-50%);
+}
+
+
+.content_tit2 {
+    position: absolute;
+    bottom: 1.6vmin;
+    left: 7.5vmin;
+    font-size: 5.4vmin;
+    padding-left: 1%;
+}
+
+
+
+/*목차 오른쪽영역 ************************************************/
+
+.contents_txt {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: 'Merriweather', serif;
+    padding: 8vmin 8vmin 0 0;
+    font-style: italic;
+}
+
+.contents_txt li {
+    text-align: center;
+    width: 6.4vmin;
+    margin-left: auto;
+}
+
+/*숫자*/
+.contxt_num {
+    font-size: 4.8vmin;
+    padding-bottom: 2vmin;
+}
+
+
+
+
+/* 헤더 *****************************/
+
+
+
+
+
+/* gnb *****************************/
+
+
+
+/* 메뉴 svg *****************************/
+.menubtn {
+    position: fixed;
+    top: 0;
+    right: 8px;
+}
+
+#menusvg {
+    width: 16vmin;
+    height: 16vmin;
+}
+
+#menusvg path {
+    fill: none;
+}
+
+#menusvg text {
+    font-family: 'Secular One', sans-serif;
+    fill: #333;
+    font-size: 6vmin;
+    text-transform: uppercase;
+    letter-spacing: 17px;
+    transform-origin: 50% 50%;
+}
+
+.text_circle_svg {
+    animation: circle_svg 15s linear infinite;
+}
+
+@keyframes circle_svg {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/*1400px일때 나타나는 메뉴 버튼(오른쪽 사이드메뉴)*/
+.menubtn2 {
+    position: fixed;
+    right: 1.8%;
+    top: 3%;
+    width: 1.6vw;
+    display: none;
+}
+
+.menubtn2 img {
+    width: 100%;
+}
+
+/*1024px에서 한페이지씩 보일때 - next 버튼*/
+.nextBtn {
+    position: absolute;
+    border: none;
+    background: none;
+    color: #333;
+    font-family: 'Rock Salt', cursive;
+    font-size: 25px;
+    right: 6%;
+    bottom: 3%;
+    display: none;
+    cursor: pointer;
+}
+
+/*prev 버튼*/
+.nextBtn.prevBtn {
+    left: 6%;
+    /*    display: none;*/
+}
+
+.menu {
+    position: fixed;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: block;
+    width: 30px;
+    height: 28px;
+    z-index: 2;
+    transition: all .4s ease-out;
+    display: none;
+}
+
+.menu span {
+    position: absolute;
+    display: inline-block;
+    height: 2px;
+    background: #333;
+    transition: all .4s ease-out;
+}
+
+.menu span:nth-child(1) {
+    top: 0;
+    right: 0;
+    width: 20px;
+}
+
+.menu:hover span:nth-child(1) {
+    width: 27px;
+}
+
+.menu span:nth-child(2) {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 35px;
+}
+
+.menu:hover span:nth-child(2) {
+    width: 20px;
+}
+
+.menu span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 27px;
+}
+
+.menu:hover span:nth-child(3) {
+    width: 35px;
+}
+
+
+
+
+/*마우스 커서*/
+/*마우스 포인터 이미지*/
+#myc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 13vmin;
+    z-index: 99999;
+    /*포인터는 가장위!*/
+    display: none;
+}
+
+
+
+
+
+/*next버튼(pc버전)*/
+.prot_nextBtn {
+    position: absolute;
+    border: none;
+    background: none;
+    color: #333;
+    font-family: 'Rock Salt', cursive;
+    font-size: 2vmin;
+    right: 6%;
+    bottom: 3%;
+}
+
+
+/*prev버튼(pc버전)*/
+.prot_nextBtn.prev {
+    left: 6%;
+    right: auto;
+}
