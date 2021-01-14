@@ -278,6 +278,11 @@
 
 /*포트폴리오 2번 페이지 *****************************************/
 
+/*톤28 사이트 이미지 변경*/
+.pofol_img.toun28_img {
+    background: url(../images/toun28.jpg) no-repeat center/cover;
+}
+
 /*레인디어 사이트 이미지 변경*/
 .pofol_img.rein_img {
     background: url(../images/pofoli_2.jpg) no-repeat center/cover;
