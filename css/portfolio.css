@@ -477,3 +477,11 @@
     bottom: -2.4%;
     right: -1.3%;
 }
+
+
+
+/*톤28 업데이트 문구*/
+.pofol_tag.toun28 {
+    font-weight: 500;
+    color: #E26A35;
+}
