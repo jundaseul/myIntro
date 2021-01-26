@@ -290,3 +290,8 @@
     left: 6%;
     right: auto;
 }
+
+
+/*글씨 드래그시 배경색 변경*/
+::selection { color:white; background:#333; }
+::-moz-selection { color:white; background:#333; } /*firefox*/
